@@ -1,0 +1,22 @@
+{
+  "name": "Selected Game Border & Shadow Customization",
+  "version": "v1.0",
+  "author": "GrodanBool",
+  "target": "Tweak",
+  "description": "Edits the border of the selected game on the homescreen",
+  "inject": {
+    "shared.css": ["SP"]
+  },
+  "manifest_version": 3,
+  "patches": {
+    "Theme Color": {
+      "default": "White",
+      "type": "dropdown",
+      "values": {
+        "White": {
+          "colors/white.css": ["SP"]
+        }
+      }
+    }
+  }
+}
