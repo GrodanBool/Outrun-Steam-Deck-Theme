@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Colors"
   ],
-  "SelectedNode": "\\shared.css",
+  "SelectedNode": "\\theme.json",
   "PreviewInSolutionExplorer": false
 }
