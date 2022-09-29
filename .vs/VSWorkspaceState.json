@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Colors"
+    "\\Color1",
+    "\\Color2"
   ],
-  "SelectedNode": "\\theme.json",
+  "SelectedNode": "\\Color2\\yellow.css",
   "PreviewInSolutionExplorer": false
 }
