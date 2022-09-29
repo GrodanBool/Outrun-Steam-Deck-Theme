@@ -5,7 +5,7 @@
   "target": "Tweak",
   "description": "Edits the border of the selected game on the homescreen",
   "inject": {
-    "shared.css": ["SP"]
+    "shared.css": [ "SP", "QuickAccess", "MainMenu" ]
   },
   "manifest_version": 3,
   "patches": {
@@ -14,19 +14,19 @@
       "type": "dropdown",
       "values": {
         "White": {
-          "Color1/white.css": [ "SP" ]
+          "Color1/white.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Cyan": {
-          "Color1/cyan.css": [ "SP" ]
+          "Color1/cyan.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Pink": {
-          "Color1/pink.css": [ "SP" ]
+          "Color1/pink.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Red": {
-          "Color1/red.css": [ "SP" ]
+          "Color1/red.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Yellow": {
-          "Color1/yellow.css": [ "SP" ]
+          "Color1/yellow.css": [ "SP", "QuickAccess", "MainMenu" ]
         }
       }
     },
@@ -35,19 +35,19 @@
       "type": "dropdown",
       "values": {
         "White": {
-          "Color2/white.css": [ "SP" ]
+          "Color2/white.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Cyan": {
-          "Color2/cyan.css": [ "SP" ]
+          "Color2/cyan.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Pink": {
-          "Color2/pink.css": [ "SP" ]
+          "Color2/pink.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Red": {
-          "Color2/red.css": [ "SP" ]
+          "Color2/red.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Yellow": {
-          "Color2/yellow.css": [ "SP" ]
+          "Color2/yellow.css": [ "SP", "QuickAccess", "MainMenu" ]
         }
       }
     }

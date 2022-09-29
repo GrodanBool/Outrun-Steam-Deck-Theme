@@ -10,8 +10,22 @@
     --custom-sp-color-border-fade-100: rgba(45, 226, 230, 0.8);
     --custom-sp-color-border-blink: rgba(45, 226, 230, 0.4);
     --custom-sp-color-shadow-blink: rgba(45, 226, 230, 0.4);
+    --Steam-Side-Menu-Button: url("/themes_custom/Border and Shadow Edit/Icons/sd_button_menu.png");
+    --Steam-A-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_a.png");
+    --Steam-B-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_b.png");
 }
 
+img[src="/steaminputglyphs/sd_button_menu.svg"] {
+    content: var(--Steam-Side-Menu-Button, url("/steaminputglyphs/sd_button_menu.svg"));
+}
+
+img[src="/steaminputglyphs/shared_button_a.svg"] {
+    content: var(--Steam-A-Button, url("/steaminputglyphs/shared_button_a.svg"));
+}
+
+img[src="/steaminputglyphs/shared_button_b.svg"] {
+    content: var(--Steam-B-Button, url("/steaminputglyphs/shared_button_b.svg"));
+}
 
 @keyframes appportrait_growOutline_3wk3d1 {
     0% {border-color: var(--custom-sp-color-border-grow-0);}
@@ -49,4 +63,197 @@
 .footer_BasicFooter_3T1iF {
     border-top: 2px solid var(--custom-sp-color2);
     box-shadow: 0px 0px 24px 0px var(--custom-sp-color2);
+}
+
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .header_Header_1E_SL {
+    color: var(--custom-sp-color);
+}
+
+.actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
+    color: var(--custom-sp-color2);
+}
+
+.header_Clock_1HhLU {
+    color: var(--custom-sp-color);
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
+    color: var(--custom-sp-color);
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Status_3BdWq {
+    color: var(--custom-sp-color2);
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Label_34H1w {
+    color: var(--custom-sp-color2);
+}
+
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendText_1iulC {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
+    background-color: var(--custom-sp-color2);
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_Downloading_33BlY .downloads_State_2ns4w {
+    color: var(--custom-sp-color);
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
+    color: var(--custom-sp-color2);
+}
+
+.downloads_SectionItemStatus_1Sygg {
+    color: var(--custom-sp-color);
+}
+
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
+    color: var(--custom-sp-color2);
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp div {
+    background-color: var(--custom-sp-color);
+    opacity: 0.3;
+}
+
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+    background-color: var(--custom-sp-color);
+}
+
+.GamepadMode .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItemStatus_1Sygg .downloads_ProgressBar_1vMU1.downloads_NotActive_2Xedp div {
+    background-color: var(--custom-sp-color);
+    opacity: 0.3;
+}
+
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled {
+    background-color: var(--custom-sp-color);
+}
+
+.BasicUI .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
+    background-color: var(--custom-sp-color);
+}
+
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
+    background-color: var(--custom-sp-color);
+}
+
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+    background: var(--custom-sp-color);
+}
+
+.downloads_ProgressDetails_sv3ZH .downloads_Label_3a973 {
+    color: var(--custom-sp-color);
+}
+
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_InProgress_3Wavc {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .downloads_ContentTypes_1IKba .downloads_Icon_-OgRz.downloads_Status_-PT6m {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .downloads_ContentTypes_1IKba .downloads_Icon_-OgRz {
+    color: var(--custom-sp-color);
+}
+
+.downloads_ContentType_Rgy-7 .downloads_Text_1nCT- {
+    color: var(--custom-sp-color2);
+}
+
+.downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
+    color: var(--custom-sp-color);
+}
+
+.downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv, .downloads_SectionJumpBar_mw7VZ .downloads_TitleAndCount_ROxNr .downloads_Title_TK9wv {
+    color: var(--custom-sp-color);
+}
+
+.downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
+    background-color: var(--custom-sp-color2);
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_State_2ns4w .downloads_InProgress_3Wavc {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .downloads_AutoUpdateHours_117rQ {
+    color: var(--custom-sp-color);
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_Progress_FuJLs {
+    color: var(--custom-sp-color);
+}
+
+.downloads_SectionTitle_qq2xI .downloads_Count_1CGnw {
+    color: var(--custom-sp-color);
+    opacity: 0.3;
+}
+
+.downloads_EmptyTransfers_1zv2D .downloads_Text_1nCT- {
+    color: var(--custom-sp-color);
+    opacity: 0.8;
+}
+
+.downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_Denominator_2ckIr {
+    color: var(--custom-sp-color);
+    opacity: 0.3;
+}
+
+.footericons_Light_2e0Fq .footericons_Background_I3P4e {
+    color: var(--custom-sp-color);
+}
+
+.mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
+    color: var(--custom-sp-color2);
+}
+
+.mainmenu_ItemIcon_3xZ3Z svg {
+    color: var(--custom-sp-color);
+}
+
+.mainmenu_ItemLabel_3x-ZK {
+    color: var(--custom-sp-color2);
+}
+
+.basiccontextmenu_BasicContextMenuHeader_2nHKK {
+    color: var(--custom-sp-color);
+}
+
+.basiccontextmenu_contextMenuContents_TBSbv {
+    border: 2px solid var(--custom-sp-color);
+    box-shadow: 0px 0px 10px 0px var(--custom-sp-color-shadow);
+}
+
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg {
+    background: var(--custom-sp-color);
+    color: black;
+}
+
+.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D, .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.Stop, .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.Cancel {
+    background: var(--custom-sp-color);
+    color: black;
+}
+
+.basiccontextmenu_contextMenuItem_3PqLg {
+    background: none;
+    color: var(--custom-sp-color2);
+}
+
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
+    color: var(--custom-sp-color2);
+}
+
+.mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemIcon_3xZ3Z, .mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemLabel_3x-ZK {
+    color: var(--custom-sp-color2);
+}
+
+.mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
+    color: var(--custom-sp-color2);
 }
