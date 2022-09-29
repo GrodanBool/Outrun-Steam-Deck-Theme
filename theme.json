@@ -9,12 +9,45 @@
   },
   "manifest_version": 3,
   "patches": {
-    "Theme Color": {
-      "default": "White",
+    "Theme Color 1": {
+      "default": "Cyan",
       "type": "dropdown",
       "values": {
         "White": {
-          "colors/white.css": ["SP"]
+          "Color1/white.css": [ "SP" ]
+        },
+        "Cyan": {
+          "Color1/cyan.css": [ "SP" ]
+        },
+        "Pink": {
+          "Color1/pink.css": [ "SP" ]
+        },
+        "Red": {
+          "Color1/red.css": [ "SP" ]
+        },
+        "Yellow": {
+          "Color1/yellow.css": [ "SP" ]
+        }
+      }
+    },
+    "Theme Color 2": {
+      "default": "Pink",
+      "type": "dropdown",
+      "values": {
+        "White": {
+          "Color2/white.css": [ "SP" ]
+        },
+        "Cyan": {
+          "Color2/cyan.css": [ "SP" ]
+        },
+        "Pink": {
+          "Color2/pink.css": [ "SP" ]
+        },
+        "Red": {
+          "Color2/red.css": [ "SP" ]
+        },
+        "Yellow": {
+          "Color2/yellow.css": [ "SP" ]
         }
       }
     }

@@ -1,0 +1,12 @@
+:root {
+    --custom-sp-color2: rgb(253, 29, 83);
+    --custom-sp-color2-shadow: rgba(253, 29, 83, 0.8);
+    --custom-sp-color2-border: rgba(253, 29, 83, 0.8);
+    --custom-sp-color2-border-grow-0: rgba(253, 29, 83, 0);
+    --custom-sp-color2-border-grow-01: rgba(253, 29, 83, 0.4);
+    --custom-sp-color2-border-grow-100: rgba(253, 29, 83, 0.8);
+    --custom-sp-color2-border-fade-0: rgba(253, 29, 83, 0);
+    --custom-sp-color2-border-fade-100: rgba(253, 29, 83, 0.8);
+    --custom-sp-color2-border-blink: rgba(253, 29, 83, 0.4);
+    --custom-sp-color2-shadow-blink: rgba(253, 29, 83, 0.4);
+}

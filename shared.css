@@ -1,49 +1,52 @@
+:root {
+    --custom-sp-color: rgb(45, 226, 230);
+    --custom-sp-color2: rgb(246, 1, 157);
+    --custom-sp-color-shadow: rgba(45, 226, 230, 0.8);
+    --custom-sp-color-border: rgba(45, 226, 230, 0.8);
+    --custom-sp-color-border-grow-0: rgba(45, 226, 230, 0);
+    --custom-sp-color-border-grow-01: rgba(45, 226, 230, 0.4);
+    --custom-sp-color-border-grow-100: rgba(45, 226, 230, 0.8);
+    --custom-sp-color-border-fade-0: rgba(45, 226, 230, 0);
+    --custom-sp-color-border-fade-100: rgba(45, 226, 230, 0.8);
+    --custom-sp-color-border-blink: rgba(45, 226, 230, 0.4);
+    --custom-sp-color-shadow-blink: rgba(45, 226, 230, 0.4);
+}
+
+
 @keyframes appportrait_growOutline_3wk3d1 {
-    0% {
-        border-color: rgba(0, 255, 255, 0);
-    }
-
-    0.1% {
-        border-color: rgba(0, 255, 255, 0.24);
-    }
-
-    100% {
-        border-color: rgba(0, 255, 255, 0.6);
-    }
+    0% {border-color: var(--custom-sp-color-border-grow-0);}
+    0.1% {border-color: var(--custom-sp-color-border-grow-01);}
+    100% {border-color: var(--custom-sp-color-border-grow-100);}
 }
 
 @keyframes appportrait_fadeOutline_1FLuV1 {
-    0% {
-        border-color: rgba(0, 255, 255, 0);
-    }
-
-    100% {
-        border-color: rgba(0, 255, 255, 0.6);
-    }
+    0% {border-color: var(--custom-sp-color-border-fade-0);}
+    100% {border-color: var(--custom-sp-color-border-fade-100);}
 }
 
 @keyframes appportrait_blinker_2tSbN1 {
     50% {
-        border: 2px solid rgba(0, 255, 255, 0.24);
-        box-shadow: 0px 0px 24px 0px rgb(0 255 255 / 24%);
+        border: 2px solid var(--custom-sp-color-border-blink);
+        box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow-blink);
     }
 }
 
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus.gpfocuswithin {
-    border: 2px solid rgba(0, 255, 255, 0.8);
-    box-shadow: 0px 0px 24px 0px rgb(0 255 255 / 50%);
+    border: 2px solid var(--custom-sp-color-border);
+    box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow);
     animation: appportrait_growOutline_3wk3d1 .4s ease,appportrait_fadeOutline_1FLuV1 .4s ease,appportrait_blinker_2tSbN1 1.2s ease-in-out .4s infinite;
 }
 
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA {
-    color: #ff4da6;
+    color: var(--custom-sp-color);
 }
 
 .basicgamecarousel_SubMessage_1BtXg {
-    color: rgba(0, 255, 255, 0.6);
+    color: var(--custom-sp-color2);
+    opacity: 0.8;
 }
 
 .footer_BasicFooter_3T1iF {
-    border-top: 2px solid #ff4da6;
-    box-shadow: 0px 0px 24px 0px #ff4da6;
+    border-top: 2px solid var(--custom-sp-color2);
+    box-shadow: 0px 0px 24px 0px var(--custom-sp-color2);
 }
