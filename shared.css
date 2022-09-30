@@ -13,6 +13,10 @@
     --Steam-Side-Menu-Button: url("/themes_custom/Border and Shadow Edit/Icons/sd_button_menu.png");
     --Steam-A-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_a.png");
     --Steam-B-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_b.png");
+    --Steam-X-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_x.png");
+    --Steam-Y-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_y.png");
+    --Steam-L1-Button: url("/themes_custom/Border and Shadow Edit/Icons/sd_l1.png");
+    --Steam-R1-Button: url("/themes_custom/Border and Shadow Edit/Icons/sd_r1.png");
 }
 
 img[src="/steaminputglyphs/sd_button_menu.svg"] {
@@ -27,15 +31,44 @@ img[src="/steaminputglyphs/shared_button_b.svg"] {
     content: var(--Steam-B-Button, url("/steaminputglyphs/shared_button_b.svg"));
 }
 
+img[src="/steaminputglyphs/shared_button_x.svg"] {
+    content: var(--Steam-X-Button, url("/steaminputglyphs/shared_button_x.svg"));
+}
+
+img[src="/steaminputglyphs/shared_button_y.svg"] {
+    content: var(--Steam-Y-Button, url("/steaminputglyphs/shared_button_y.svg"));
+}
+
+img[src="/steaminputglyphs/sd_l1.svg"] {
+    content: var(--Steam-L1-Button, url("/steaminputglyphs/sd_l1.svg"));
+}
+
+img[src="/steaminputglyphs/sd_r1.svg"] {
+    content: var(--Steam-R1-Button, url("/steaminputglyphs/sd_r1.svg"));
+}
+
 @keyframes appportrait_growOutline_3wk3d1 {
-    0% {border-color: var(--custom-sp-color-border-grow-0);}
-    0.1% {border-color: var(--custom-sp-color-border-grow-01);}
-    100% {border-color: var(--custom-sp-color-border-grow-100);}
+    0% {
+        border-color: var(--custom-sp-color-border-grow-0);
+    }
+
+    0.1% {
+        border-color: var(--custom-sp-color-border-grow-01);
+    }
+
+    100% {
+        border-color: var(--custom-sp-color-border-grow-100);
+    }
 }
 
 @keyframes appportrait_fadeOutline_1FLuV1 {
-    0% {border-color: var(--custom-sp-color-border-fade-0);}
-    100% {border-color: var(--custom-sp-color-border-fade-100);}
+    0% {
+        border-color: var(--custom-sp-color-border-fade-0);
+    }
+
+    100% {
+        border-color: var(--custom-sp-color-border-fade-100);
+    }
 }
 
 @keyframes appportrait_blinker_2tSbN1 {
@@ -95,6 +128,7 @@ img[src="/steaminputglyphs/shared_button_b.svg"] {
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendText_1iulC {
     color: var(--custom-sp-color);
+    opacity: 0.9;
 }
 
 .BasicUI .appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq {
@@ -236,10 +270,10 @@ img[src="/steaminputglyphs/shared_button_b.svg"] {
     color: black;
 }
 
-.basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D, .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.Stop, .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.Cancel {
-    background: var(--custom-sp-color);
-    color: black;
-}
+    .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D, .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.Stop, .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.Cancel {
+        background: var(--custom-sp-color);
+        color: black;
+    }
 
 .basiccontextmenu_contextMenuItem_3PqLg {
     background: none;
@@ -255,5 +289,364 @@ img[src="/steaminputglyphs/shared_button_b.svg"] {
 }
 
 .mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
+    background: var(--custom-sp-color2);
+}
+
+.appgrid_AppGridSectionHeader_3bWIS .appgrid_Rule_3pJqX {
+    background: var(--custom-sp-color2);
+    margin-right: 25px;
+}
+
+.appgrid_AppGridSectionLabel_2hvQb {
+    color: var(--custom-sp-color);
+    font-size: 14px;
+}
+
+.gamepadtabbedpage_Tab_3eEbS {
+    color: var(--custom-sp-color);
+}
+
+    .gamepadtabbedpage_Tab_3eEbS.gpfocus {
+        color: var(--custom-sp-color2);
+    }
+
+.gamepadtabbedpage_TabCount_1ui4I {
+    color: var(--custom-sp-color);
+    opacity: 0.5;
+}
+
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83 {
+    color: var(--custom-sp-color);
+}
+
+.searchbar_SearchFieldBackground_3F4YR.searchbar_WhiteBackground_1l8js {
+    background: transparent;
+}
+
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js {
+    color: var(--custom-sp-color);
+}
+
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_HasAddon_2tufx.gamepadtabbedpage_RightAddon_KFGEk {
+    color: var(--custom-sp-color);
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx {
+    background-color: var(--custom-sp-color2);
+}
+
+.searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s {
+    caret-color: var(--custom-sp-color);
+}
+
+.searchbar_SearchBox_2a1-s {
+    caret-color: var(--custom-sp-color);
+}
+
+    .searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s::placeholder {
+        color: var(--custom-sp-color);
+        opacity: 0.6;
+    }
+
+.gamepadsearch_ResultTemplateDescriptionRow_19p6s .gamepadsearch_Icon_3hAUu {
     color: var(--custom-sp-color2);
+}
+
+.gamepadsearch_ResultTemplateDescriptionRow_19p6s .gamepadsearch_Description_3RDew {
+    color: var(--custom-sp-color);
+}
+
+.GamepadMode.friendlist .TabPanelHeader {
+    color: var(--custom-sp-color);
+}
+
+    .GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton, .GamepadMode.friendlist .TabPanelHeader .AddFriendButton, .GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton {
+        color: var(--custom-sp-color);
+    }
+
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path:first-of-type, .GamepadMode .friendslist_TabBumper_3Jr0A svg path:first-of-type {
+    color: var(--custom-sp-color);
+}
+
+.friendslist_TabBumper_3Jr0A.GamepadMode svg path, .GamepadMode .friendslist_TabBumper_3Jr0A svg path {
+    color: var(--custom-sp-color);
+}
+
+.GamepadMode.friendlist .FriendsListTab {
+    color: var(--custom-sp-color2);
+    opacity: 0.7;
+}
+
+    .GamepadMode.friendlist .FriendsListTab.gpfocus svg {
+        color: var(--custom-sp-color2) !important;
+        opacity: 1;
+        background: var(--custom-sp-color-border-blink);
+    }
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+    color: var(--custom-sp-color);
+}
+
+.friendGroup.offlineFriends .groupName .groupCount.GamepadMode, .GamepadMode .friendGroup.offlineFriends .groupName .groupCount, .friendGroup.onlineFriends .groupName .groupCount.GamepadMode, .GamepadMode .friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed.GamepadMode, .GamepadMode .friendGroup .groupName .groupCount.collapsed {
+    color: var(--custom-sp-color);
+    opacity: 0.7;
+}
+
+.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName {
+    color: var(--custom-sp-color);
+}
+
+.online .personanameandstatus_playerName_1ocG6.GamepadMode, .GamepadMode .online .personanameandstatus_playerName_1ocG6 {
+    color: var(--custom-sp-color);
+}
+
+.awayOrSnooze.online .personanameandstatus_playerName_1ocG6.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_playerName_1ocG6 {
+    color: var(--custom-sp-color);
+}
+
+.ingame .personanameandstatus_playerName_1ocG6.GamepadMode, .GamepadMode .ingame .personanameandstatus_playerName_1ocG6 {
+    color: var(--custom-sp-color);
+}
+
+.ingame .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN.GamepadMode, .GamepadMode .ingame .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN {
+    color: var(--custom-sp-color2) !important;
+}
+
+.friendsnooze_SnoozeContainer_37Qst.online .friendsnooze_SnoozeZ_2urc6.GamepadMode, .GamepadMode .friendsnooze_SnoozeContainer_37Qst.online .friendsnooze_SnoozeZ_2urc6 {
+    color: var(--custom-sp-color2);
+}
+
+.online .personanameandstatus_richPresenceLabel_1whoN.GamepadMode, .GamepadMode .online .personanameandstatus_richPresenceLabel_1whoN, .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a, .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:hover.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:hover, .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:active.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:active, .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:visited.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:visited {
+    color: var(--custom-sp-color2);
+}
+
+.awayOrSnooze.online .personanameandstatus_richPresenceLabel_1whoN.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_richPresenceLabel_1whoN, .awayOrSnooze.online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a, .awayOrSnooze.online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:hover.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:hover, .awayOrSnooze.online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:active.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:active, .awayOrSnooze.online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:visited.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:visited {
+    color: var(--custom-sp-color2) !important;
+}
+
+.friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .personanameandstatus_playerName_1ocG6, .friend.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .personanameandstatus_richPresenceLabel_1whoN, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_playerName_1ocG6, .GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_richPresenceLabel_1whoN, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .personanameandstatus_playerName_1ocG6, .favoriteElement.gpfocus .labelHolder.GamepadMode.online.awayOrSnooze .personanameandstatus_richPresenceLabel_1whoN, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_playerName_1ocG6, .GamepadMode .favoriteElement.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_richPresenceLabel_1whoN {
+    color: var(--custom-sp-color);
+}
+
+.friendGroup .groupName.GamepadMode.gpfocus, .GamepadMode .friendGroup .groupName.gpfocus {
+    color: var(--custom-sp-color) !important;
+}
+
+.offline .personanameandstatus_playerName_1ocG6.GamepadMode, .GamepadMode .offline .personanameandstatus_playerName_1ocG6 {
+    color: var(--custom-sp-color);
+}
+
+.offline .personanameandstatus_richPresenceLabel_1whoN, .offline .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a, .offline .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:hover, .offline .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:active, .offline .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:visited {
+    color: var(--custom-sp-color2);
+}
+
+.friend.gpfocus .labelHolder.GamepadMode.offline .personanameandstatus_richPresenceLabel_1whoN, .GamepadMode .friend.gpfocus .labelHolder.offline .personanameandstatus_richPresenceLabel_1whoN, .favoriteElement.gpfocus .labelHolder.GamepadMode.offline .personanameandstatus_richPresenceLabel_1whoN, .GamepadMode .favoriteElement.gpfocus .labelHolder.offline .personanameandstatus_richPresenceLabel_1whoN {
+    color: var(--custom-sp-color2);
+}
+
+.GamepadMode.friendlist .FriendsListTab.Active svg {
+    color: var(--custom-sp-color2);
+}
+
+.mediapage_ScreenshotHeaderBanner_Bly4O .mediapage_SortOrder_21DQz {
+    color: var(--custom-sp-color);
+}
+
+.mediapage_ScreenshotHeaderBanner_Bly4O .mediapage_DividerLine_3muZW {
+    color: var(--custom-sp-color2);
+}
+
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
+    color: var(--custom-sp-color2);
+}
+
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
+    color: var(--custom-sp-color);
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
+    stroke: var(--custom-sp-color2);
+}
+
+.gamepadpagedsettings_PageListItem_Icon_1F_5Q svg {
+    color: var(--custom-sp-color2);
+}
+
+.gamepadpagedsettings_PageListItem_Title_2PPLv {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .DialogContent_InnerWidth > div {
+    color: var(--custom-sp-color);
+}
+
+.gamepaddialog_FieldLabel_3b0U- {
+    color: var(--custom-sp-color2) !important;
+}
+
+.gamepaddialog_FieldDescription_2OJfk {
+    color: var(--custom-sp-color) !important;
+}
+
+.BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader {
+    color: var(--custom-sp-color) !important;
+}
+
+button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn70.DialogButton:enabled, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:hover, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover {
+    color: var(--custom-sp-color) !important;
+}
+
+.dropdownlabel_DropDownLabelTitle_uDBZW {
+    color: var(--custom-sp-color) !important;
+}
+
+.dropdownlabel_DropDownLabelUpperDescription_2_JN3 {
+    color: var(--custom-sp-color2) !important;
+}
+
+.dropdownlabel_DropDownLabelDescription_1JPcb {
+    color: var(--custom-sp-color2) !important;
+}
+
+.gamepaddialog_ToggleSwitch_3__OD {
+    color: var(--custom-sp-color) !important;
+}
+
+.gamepaddialog_ToggleRail_2JtC3::before {
+    color: var(--custom-sp-color2) !important;
+}
+
+.gamepaddialog_LabelFieldValue_5Mylh {
+    color: var(--custom-sp-color) !important;
+}
+
+.BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
+    color: var(--custom-sp-color) !important;
+}
+
+.gamepadslider_SliderTrack_Mq25N {
+    --left-track-color: var(--custom-sp-color2) !important;
+}
+
+.gamepadslider_SliderHandle_2yVKj {
+    background: var(--custom-sp-color) !important;
+}
+
+.gamepadslider_SliderControlWithIcon_2M8Pt.gpfocuswithin {
+    color: var(--custom-sp-color) !important;
+}
+
+.displaysettings_TimeRangeControls_10XNA .displaysettings_And_sL5P5 {
+    color: var(--custom-sp-color) !important;
+}
+
+.bluetoothsettings_NotConnectedLabel_31Z4e {
+    color: var(--custom-sp-color) !important;
+}
+
+.gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+    color: var(--custom-sp-color2) !important;
+}
+
+.gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
+    color: var(--custom-sp-color) !important;
+}
+
+.online .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .online .personanameandstatus_playerName_r62qz {
+    color: var(--custom-sp-color) !important;
+}
+
+.online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, .GamepadMode .online .personanameandstatus_richPresenceLabel_1k82N, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
+    color: var(--custom-sp-color2) !important;
+}
+
+.familysettings_UserListHeader_2LOrs {
+    color: var(--custom-sp-color) !important;
+}
+
+.remoteplaysettings_TableHeader_1HL6K {
+    color: var(--custom-sp-color) !important;
+}
+
+.homesettings_HiddenGameLabel_3p6Jb .homesettings_GameCount_1Bv_r {
+    color: var(--custom-sp-color) !important;
+}
+
+.contentmanagement_InstallFolder_12aBP {
+    color: var(--custom-sp-color2) !important;
+}
+
+.contentmanagement_DriveName_1rihl {
+    color: var(--custom-sp-color) !important;
+}
+
+.contentmanagement_DriveSize_5bG9I {
+    color: var(--custom-sp-color2) !important;
+}
+
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl, .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I, .contentmanagement_IsSelected_3VQeL svg {
+    color: var(--custom-sp-color2) !important;
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveName_1rihl, .BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveSize_5bG9I, .BasicUI .contentmanagement_InstallFolder_12aBP:focus svg {
+    color: var(--custom-sp-color2) !important;
+}
+
+.contentmanagement_InstallFolder_12aBP .contentmanagement_FolderInfo_2ylO_ svg {
+    color: var(--custom-sp-color2) !important;
+}
+
+.contentmanagement_DriveUsageText_1DFCG, .contentmanagement_DriveUsageNumber_181OY {
+    color: var(--custom-sp-color) !important;
+}
+
+.contentmanagement_DriveUsageNumber_181OY {
+    color: var(--custom-sp-color2) !important;
+    opacity: .9;
+}
+
+.contentmanagement_DriveUsageGames_22KCi {
+    color: var(--custom-sp-color2) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
+    color: var(--custom-sp-color) !important;
+}
+
+    .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_AppHeaderValue_3X3BB {
+        color: var(--custom-sp-color) !important;
+        opacity: 0.7
+    }
+
+    .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_Rule_2iZ4o {
+        color: var(--custom-sp-color2) !important;
+    }
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW.sortingdropdowncontrolbutton_SortingDropDownControlButton_2ddeJ {
+    color: var(--custom-sp-color) !important;
+}
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:focus {
+    color: var(--custom-sp-color) !important;
+    background: #3d4450;
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus {
+    background: #3d4450;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppName_YxhO6 {
+    color: var(--custom-sp-color) !important;
+}
+
+.BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj {
+    color: var(--custom-sp-color) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9 {
+    color: var(--custom-sp-color) !important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL, .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
+    color: var(--custom-sp-color) !important;
 }

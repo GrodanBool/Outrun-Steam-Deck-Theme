@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Color1",
-    "\\Color2"
+    "\\Color2",
+    "\\Icons"
   ],
-  "SelectedNode": "\\Color2\\yellow.css",
+  "SelectedNode": "\\Icons\\shared_button_b.png",
   "PreviewInSolutionExplorer": false
 }
