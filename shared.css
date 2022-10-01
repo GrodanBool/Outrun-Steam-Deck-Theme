@@ -1,6 +1,5 @@
 :root {
     --custom-sp-color: rgb(45, 226, 230);
-    --custom-sp-color2: rgb(246, 1, 157);
     --custom-sp-color-shadow: rgba(45, 226, 230, 0.8);
     --custom-sp-color-border: rgba(45, 226, 230, 0.8);
     --custom-sp-color-border-grow-0: rgba(45, 226, 230, 0);
@@ -10,6 +9,16 @@
     --custom-sp-color-border-fade-100: rgba(45, 226, 230, 0.8);
     --custom-sp-color-border-blink: rgba(45, 226, 230, 0.4);
     --custom-sp-color-shadow-blink: rgba(45, 226, 230, 0.4);
+    --custom-sp-color2: rgb(246, 1, 157);
+    --custom-sp-color2-shadow: rgba(246, 1, 157, 0.8);
+    --custom-sp-color2-border: rgba(246, 1, 157, 0.8);
+    --custom-sp-color2-border-grow-0: rgba(246, 1, 157, 0);
+    --custom-sp-color2-border-grow-01: rgba(246, 1, 157, 0.4);
+    --custom-sp-color2-border-grow-100: rgba(246, 1, 157, 0.8);
+    --custom-sp-color2-border-fade-0: rgba(246, 1, 157, 0);
+    --custom-sp-color2-border-fade-100: rgba(246, 1, 157, 0.8);
+    --custom-sp-color2-border-blink: rgba(246, 1, 157, 0.4);
+    --custom-sp-color2-shadow-blink: rgba(246, 1, 157, 0.4);
     --Steam-Side-Menu-Button: url("/themes_custom/Border and Shadow Edit/Icons/sd_button_menu.png");
     --Steam-A-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_a.png");
     --Steam-B-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_b.png");
@@ -316,20 +325,175 @@ img[src="/steaminputglyphs/sd_r1.svg"] {
 
     .gamepadtabbedpage_Tab_3eEbS.gpfocus {
         background-color: #585858;
+        color: var(--custom-sp-color);
     }
 
 .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoRecent_1XRnA {
     color: var(--custom-sp-color2);
 }
 
-    .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoRecent_1XRnA svg {
-        color: var(--custom-sp-color);
-    }
+.gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType11_1I2pe, .gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType23_qVIYl, .gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType35_LeZ61 {
+    color: var(--custom-sp-color);
+}
 
-    .gamepadtabbedpage_TabCount_1ui4I {
-        color: var(--custom-sp-color);
-        opacity: 0.5;
-    }
+.appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoRecent_1XRnA svg {
+    color: var(--custom-sp-color);
+}
+
+.gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType15_1FEOx {
+    color: var(--custom-sp-color);
+}
+
+.gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType14_ovxhr {
+    color: var(--custom-sp-color);
+}
+
+.gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType28_39b83 {
+    color: var(--custom-sp-color);
+}
+
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
+    color: var(--custom-sp-color);
+}
+
+.gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W- {
+    color: var(--custom-sp-color);
+}
+
+.localdateandtime_RightSideTitles_3sPON {
+    color: var(--custom-sp-color);
+}
+
+.localdateandtime_ShortDateAndTime_4K3Bl {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .recentlycompleted_RecentlyCompleted_3fDIR .recentlycompleted_Header_NhBU2 {
+    color: var(--custom-sp-color);
+}
+
+.recentlycompleted_GameIconAndName_2RTo4 .recentlycompleted_GameName_1EIQL {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .homestorecarousel_StoreCarouselCtn_3zVCV .homestorecarousel_Header_xpRXv {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .marketingmessages_MarketingMessages_jdr42 .marketingmessages_Header_1QCdV {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .gamepadhomefriends_FriendsHeader_1Ejje {
+    color: var(--custom-sp-color);
+}
+
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_Title_EZ-F- {
+    color: var(--custom-sp-color);
+}
+
+.ingame .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .ingame .personanameandstatus_playerName_r62qz {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .gamepadhomerecommended_PlayNextCarouselTitle_2r7cQ {
+    color: var(--custom-sp-color);
+}
+
+.discoveryqueuewidget_WidgetHeaderText_uUpem {
+    color: var(--custom-sp-color);
+}
+
+.discoveryqueuewizard_DiscoveryQueueCarouselCtn_1GFC6 {
+    color: var(--custom-sp-color);
+}
+
+.discoveryqueuewizard_AppDetailsHeader_1Qn-x .discoveryqueuewizard_RightColumn_35mWv .discoveryqueuewizard_AppName_3KC4W {
+    color: var(--custom-sp-color);
+}
+
+.discoveryqueuewizard_AppTagsCtn_1t4JV .discoveryqueuewizard_TagEntry_UNDKT {
+    color: var(--custom-sp-color);
+}
+
+.discoveryqueuewizard_WhyRelevant_WBWfZ {
+    color: var(--custom-sp-color);
+}
+
+.discoveryqueuewizard_AppDescription_Kzj5I {
+    color: var(--custom-sp-color);
+}
+
+.SVGIcon_Button {
+    color: var(--custom-sp-color);
+}
+/*might be a problem*/
+
+.salepreviewwidgets_SingleLineOriginalPrice_1_ZF5 {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .salepreviewwidgets_StoreSaleDiscountedPriceCtn_3GLeQ .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
+    color: var(--custom-sp-color);
+}
+
+.header_HeaderItem_2HnVd.gpfocus, .header_HeaderItem_2HnVd.gpfocuswithin {
+    background: var(--custom-sp-color2-border-grow-01);
+    color: var(--custom-sp-color);
+}
+
+.salepreviewwidgets_StoreSalePriceWidgetContainer_tqNH0.salepreviewwidgets_SingleLineMode_31Sy5 .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
+    color: var(--custom-sp-color2);
+}
+
+.discoveryqueuewizard_RelevantItem_3I77j {
+    color: var(--custom-sp-color2);
+}
+
+.BasicUI .gamehover_ReviewScore_24NyY .gamehover_ReviewScoreHeader_2SFxx, .BasicUI .gamehover_ReviewScore_24NyY .gamehover_ReviewScoreCount_1Deyv {
+    color: var(--custom-sp-color2);
+}
+
+.salepreviewwidgets_StoreSalePriceWidgetContainer_tqNH0.salepreviewwidgets_SingleLineMode_31Sy5 .salepreviewwidgets_StoreSalePriceBox_Wh0L8 {
+    color: var(--custom-sp-color2);
+}
+
+.discoveryqueuewizard_LearnMoreLink_3bCDZ {
+    color: var(--custom-sp-color2) !important;
+}
+
+.gamepadhomerecommended_PlayNextCarouselSubHeading_2VByW {
+    color: var(--custom-sp-color2);
+}
+
+.appactivityday_StoreGameCapsule_1OYOt {
+    color: var(--custom-sp-color2);
+}
+
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_InLibrary_ho5Qo {
+    color: var(--custom-sp-color2);
+}
+
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_FriendsPlaying_15rrZ {
+    color: var(--custom-sp-color2);
+}
+
+.gamepadui_BasicHome_3LYP1 {
+    color: var(--custom-sp-color2);
+}
+
+.recentlycompleted_DownloadInfo_1wLpm .recentlycompleted_Bytes_TH3M8 {
+    color: var(--custom-sp-color2);
+}
+
+.recentlycompleted_DownloadInfo_1wLpm {
+    color: var(--custom-sp-color2);
+}
+
+.gamepadtabbedpage_TabCount_1ui4I {
+    color: var(--custom-sp-color);
+    opacity: 0.5;
+}
 
 .searchbar_SearchContainer_161Tj .searchbar_SearchIconLeft_2Ya83 {
     color: var(--custom-sp-color);
@@ -574,7 +738,7 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .gamepaddialog_ToggleRail_2JtC3::before {
-    color: var(--custom-sp-color2) !important;
+    background: var(--custom-sp-color2) !important;
 }
 
 .gamepaddialog_LabelFieldValue_5Mylh {
@@ -606,7 +770,15 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
-    color: var(--custom-sp-color2) !important;
+    background-color: var(--custom-sp-color2) !important;
+}
+
+.notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC {
+    color: var(--custom-sp-color2);
+}
+
+.notificationssettings_ToggleHeader_33Q-M.notificationssettings_ToggleHeader_33Q-M {
+    color: var(--custom-sp-color);
 }
 
 .gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
@@ -1020,7 +1192,15 @@ body, body.shared_common_v6_3r3Le {
 }
 
 .gamepaddialog_ToggleSwitch_3__OD {
-    color: var(--custom-sp-color);
+    background: var(--custom-sp-color);
+}
+
+.BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveName_1rihl, .BasicUI .contentmanagement_InstallFolder_12aBP:focus .contentmanagement_DriveSize_5bG9I, .BasicUI .contentmanagement_InstallFolder_12aBP:focus svg {
+    color: var(--custom-sp-color2);
+}
+
+.contentmanagement_IsSelected_3VQeL .contentmanagement_DriveName_1rihl, .contentmanagement_IsSelected_3VQeL .contentmanagement_DriveSize_5bG9I, .contentmanagement_IsSelected_3VQeL svg {
+    color: var(--custom-sp-color2);
 }
 
 .gamepaddialog_ToggleRail_2JtC3::before {
