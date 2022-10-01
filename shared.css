@@ -9,6 +9,7 @@
     --custom-sp-color-border-fade-100: rgba(45, 226, 230, 0.8);
     --custom-sp-color-border-blink: rgba(45, 226, 230, 0.4);
     --custom-sp-color-shadow-blink: rgba(45, 226, 230, 0.4);
+    --custom-sp-filter: invert(91%) sepia(55%) saturate(4974%) hue-rotate(132deg) brightness(20000%) contrast(98%);
     --custom-sp-color2: rgb(246, 1, 157);
     --custom-sp-color2-shadow: rgba(246, 1, 157, 0.8);
     --custom-sp-color2-border: rgba(246, 1, 157, 0.8);
@@ -19,41 +20,174 @@
     --custom-sp-color2-border-fade-100: rgba(246, 1, 157, 0.8);
     --custom-sp-color2-border-blink: rgba(246, 1, 157, 0.4);
     --custom-sp-color2-shadow-blink: rgba(246, 1, 157, 0.4);
-    --Steam-Side-Menu-Button: url("/themes_custom/Border and Shadow Edit/Icons/sd_button_menu.png");
-    --Steam-A-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_a.png");
-    --Steam-B-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_b.png");
-    --Steam-X-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_x.png");
-    --Steam-Y-Button: url("/themes_custom/Border and Shadow Edit/Icons/shared_button_y.png");
-    --Steam-L1-Button: url("/themes_custom/Border and Shadow Edit/Icons/sd_l1.png");
-    --Steam-R1-Button: url("/themes_custom/Border and Shadow Edit/Icons/sd_r1.png");
 }
 
 img[src="/steaminputglyphs/sd_button_menu.svg"] {
-    content: var(--Steam-Side-Menu-Button, url("/steaminputglyphs/sd_button_menu.svg"));
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_button_view.svg"] {
+    filter: var(--custom-sp-filter);
 }
 
 img[src="/steaminputglyphs/shared_button_a.svg"] {
-    content: var(--Steam-A-Button, url("/steaminputglyphs/shared_button_a.svg"));
+    filter: var(--custom-sp-filter);
 }
 
 img[src="/steaminputglyphs/shared_button_b.svg"] {
-    content: var(--Steam-B-Button, url("/steaminputglyphs/shared_button_b.svg"));
+    filter: var(--custom-sp-filter);
 }
 
 img[src="/steaminputglyphs/shared_button_x.svg"] {
-    content: var(--Steam-X-Button, url("/steaminputglyphs/shared_button_x.svg"));
+    filter: var(--custom-sp-filter);
 }
 
 img[src="/steaminputglyphs/shared_button_y.svg"] {
-    content: var(--Steam-Y-Button, url("/steaminputglyphs/shared_button_y.svg"));
+    filter: var(--custom-sp-filter);
 }
 
 img[src="/steaminputglyphs/sd_l1.svg"] {
-    content: var(--Steam-L1-Button, url("/steaminputglyphs/sd_l1.svg"));
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l2.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l2_half.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l4.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l5.svg"] {
+    filter: var(--custom-sp-filter);
 }
 
 img[src="/steaminputglyphs/sd_r1.svg"] {
-    content: var(--Steam-R1-Button, url("/steaminputglyphs/sd_r1.svg"));
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r2.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r2_half.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r4.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r5.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad_down.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad_left.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad_right.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad_up.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_l3.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_r3.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_lstick.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_rstick.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_lstick_touch.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_rstick_touch.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_gyro.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_click.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_down.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_left.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_right.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_ring.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_swipe.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_up.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_click.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_down.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_left.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_right.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_ring.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_swipe.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_up.svg"] {
+    filter: var(--custom-sp-filter);
 }
 
 @keyframes appportrait_growOutline_3wk3d1 {
@@ -694,11 +828,11 @@ img[src="/steaminputglyphs/sd_r1.svg"] {
 }
 
 .gamepadpagedsettings_PageListItem_Icon_1F_5Q svg {
-    color: var(--custom-sp-color2);
+    filter: var(--custom-sp-filter);
 }
 
 .gamepadpagedsettings_PageListItem_Title_2PPLv {
-    color: var(--custom-sp-color);
+    color: var(--custom-sp-color2);
 }
 
 .BasicUI .DialogContent_InnerWidth > div {

@@ -9,4 +9,5 @@
     --custom-sp-color-border-fade-100: rgba(45, 226, 230, 0.8);
     --custom-sp-color-border-blink: rgba(45, 226, 230, 0.4);
     --custom-sp-color-shadow-blink: rgba(45, 226, 230, 0.4);
+    --custom-sp-filter: invert(91%) sepia(55%) saturate(4974%) hue-rotate(132deg) brightness(20000%) contrast(98%);
 }
