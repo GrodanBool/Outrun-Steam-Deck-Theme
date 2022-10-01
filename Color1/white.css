@@ -9,4 +9,5 @@
     --custom-sp-color-border-fade-100: rgba(255, 255, 255, 0.8);
     --custom-sp-color-border-blink: rgba(255, 255, 255, 0.4);
     --custom-sp-color-shadow-blink: rgba(255, 255, 255, 0.4);
+    --custom-sp-filter: none;
 }

@@ -1523,13 +1523,10 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 
 .controllerconfiguratorchoosebinding_TriggerButton_2MjBd.gpfocus, .controllerconfiguratorchoosebinding_BumperButton_2swvc.gpfocus {
     filter: drop-shadow(0px 0px 10px var(--custom-sp-color);
+    border-color: #585858;
+    background: #585858;
 }
 
 .gpfocus .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I {
     color: var(--custom-sp-color);
-}
-
-.controllerconfiguratorchoosebinding_TriggerButton_2MjBd.gpfocus, .controllerconfiguratorchoosebinding_BumperButton_2swvc.gpfocus {
-    border-color: #585858;
-    background: #585858;
 }
