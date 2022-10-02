@@ -241,6 +241,10 @@ rect.downloadgraph_GraphBar_3raSL {
         fill: var(--custom-sp-color2) !important;
     }
 
+.basicgamecarousel_Play_12eKc .basicgamecarousel_ActionIcon_25Qbo {
+    color: var(--custom-sp-color);
+}
+
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus.gpfocuswithin {
     border: 2px solid var(--custom-sp-color-border);
     box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow);
