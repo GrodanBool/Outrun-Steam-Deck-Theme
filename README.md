@@ -3,5 +3,5 @@
  
  Currently in progress.
  
- ![alt text](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink.jpg?raw=true)
- ![alt text](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow.jpg?raw=true)
+ ![alt text](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-n.jpg?raw=true)
+ ![alt text](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-n.jpg?raw=true)
