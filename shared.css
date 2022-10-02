@@ -221,6 +221,26 @@ img[src="/steaminputglyphs/sd_rtrackpad_up.svg"] {
     }
 }
 
+rect.downloadgraph_GraphBar_3raSL {
+    color: var(--custom-sp-color) !important;
+}
+
+.updaterfield_PatchNotes_Evi7g .updaterfield_PostedTime_3lI6D {
+    color: var(--custom-sp-color2);
+}
+
+.updaterfield_PatchNotes_Evi7g .updaterfield_EventDetailTitle_1suo0 {
+    color: var(--custom-sp-color);
+}
+
+.updaterfield_PatchNotes_Evi7g .updaterfield_EventDetailsBody_LRVqO {
+    color: var(--custom-sp-color2);
+}
+
+    .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL rect {
+        fill: var(--custom-sp-color2) !important;
+    }
+
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus.gpfocuswithin {
     border: 2px solid var(--custom-sp-color-border);
     box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow);
@@ -816,7 +836,7 @@ img[src="/steaminputglyphs/sd_rtrackpad_up.svg"] {
 }
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
-    color: var(--custom-sp-color2);
+    background-color: var(--custom-sp-color2);
 }
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
@@ -1027,10 +1047,6 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_But
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9 {
-    color: var(--custom-sp-color) !important;
-}
-
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL, .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
     color: var(--custom-sp-color) !important;
 }
 
