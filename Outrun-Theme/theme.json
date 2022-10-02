@@ -50,6 +50,11 @@
           "Color2/yellow.css": [ "SP", "QuickAccess", "MainMenu" ]
         }
       }
+    },
+    "dependencies": {
+      "Switch Like Home": {
+        "No Friends": "Yes"
+      }
     }
   }
 }

@@ -237,9 +237,13 @@ rect.downloadgraph_GraphBar_3raSL {
     color: var(--custom-sp-color2);
 }
 
-    .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL rect {
-        fill: var(--custom-sp-color2) !important;
-    }
+.header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL rect {
+    fill: var(--custom-sp-color2);
+}
+
+.quickaccesscontrols_BatteryIcon_39aNh rect {
+    fill: var(--custom-sp-color2);
+}
 
 .basicgamecarousel_Play_12eKc .basicgamecarousel_ActionIcon_25Qbo {
     color: var(--custom-sp-color);
@@ -247,6 +251,7 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus.gpfocuswithin {
     border: 2px solid var(--custom-sp-color-border);
+    outline: none;
     box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow);
     animation: appportrait_growOutline_3wk3d1 .4s ease,appportrait_fadeOutline_1FLuV1 .4s ease,appportrait_blinker_2tSbN1 1.2s ease-in-out .4s infinite;
 }
@@ -441,7 +446,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg {
-    background: var(--custom-sp-color);
+    background: #585858;
     color: black;
 }
 
@@ -450,9 +455,13 @@ rect.downloadgraph_GraphBar_3raSL {
         color: black;
     }
 
+.BasicUI .downloadsettings_BandwidthInput_3Z54c:focus {
+    background: #585858
+}
+
 .basiccontextmenu_contextMenuItem_3PqLg {
     background: none;
-    color: var(--custom-sp-color2);
+    color: var(--custom-sp-color2) !important;
 }
 
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
@@ -616,8 +625,44 @@ rect.downloadgraph_GraphBar_3raSL {
     color: var(--custom-sp-color2);
 }
 
+.friend.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze .personanameandstatus_playerName_1ocG6, .friend.gpfocus .labelHolder.GamepadMode.ingame .personanameandstatus_richPresenceLabel_1whoN, .GamepadMode .friend.gpfocus .labelHolder.ingame.awayOrSnooze .personanameandstatus_playerName_1ocG6, .GamepadMode .friend.gpfocus .labelHolder.ingame .personanameandstatus_richPresenceLabel_1whoN, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame.awayOrSnooze .personanameandstatus_playerName_1ocG6, .favoriteElement.gpfocus .labelHolder.GamepadMode.ingame .personanameandstatus_richPresenceLabel_1whoN, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame.awayOrSnooze .personanameandstatus_playerName_1ocG6, .GamepadMode .favoriteElement.gpfocus .labelHolder.ingame .personanameandstatus_richPresenceLabel_1whoN {
+    color: var(--custom-sp-color);
+}
+
+.deckverified_DialogTitle_2FOcP {
+    color: var(--custom-sp-color);
+}
+
+.deckverified_CompatibilityDetailRatingSummary_1dRcO {
+    color: var(--custom-sp-color2);
+}
+
+.deckverified_CompatibilityDetailsRow_i-kKr {
+    color: var(--custom-sp-color);
+}
+
+.appactivityday_PartnerEventTextOnly_Title_1Cva_ {
+    color: var(--custom-sp-color);
+}
+
+.appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemHeader_1jkfJ {
+    color: var(--custom-sp-color2);
+}
+
+.appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemName_1KR5X {
+    color: var(--custom-sp-color);
+}
+
+.appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem .appdetailsworkshopsection_FeaturedItemDesc_3SzXr {
+    color: var(--custom-sp-color);
+}
+
+.deckverified_CompatibilityDetailsNoteRow_2Bejw {
+    color: var(--custom-sp-color2);
+}
+
 .discoveryqueuewizard_LearnMoreLink_3bCDZ {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .gamepadhomerecommended_PlayNextCarouselSubHeading_2VByW {
@@ -634,6 +679,14 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_FriendsPlaying_15rrZ {
     color: var(--custom-sp-color2);
+}
+
+.friendsnooze_SnoozeContainer_37Qst.in-game .friendsnooze_SnoozeZ_2urc6.GamepadMode, .GamepadMode .friendsnooze_SnoozeContainer_37Qst.in-game .friendsnooze_SnoozeZ_2urc6 {
+    color: var(--custom-sp-color);
+}
+
+.friendsnooze_SnoozeContainer_37Qst.in-game .friendsnooze_SnoozeZ_2urc6 {
+    color: var(--custom-sp-color);
 }
 
 .gamepadui_BasicHome_3LYP1 {
@@ -748,7 +801,7 @@ rect.downloadgraph_GraphBar_3raSL {
     }
 
 .friendslist_TabBumper_3Jr0A.GamepadMode svg path:first-of-type, .GamepadMode .friendslist_TabBumper_3Jr0A svg path:first-of-type {
-    color: var(--custom-sp-color);
+    stroke: var(--custom-sp-color);
 }
 
 .friendslist_TabBumper_3Jr0A.GamepadMode svg path, .GamepadMode .friendslist_TabBumper_3Jr0A svg path {
@@ -761,10 +814,14 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
     .GamepadMode.friendlist .FriendsListTab.gpfocus svg {
-        color: var(--custom-sp-color2) !important;
+        color: var(--custom-sp-color2);
         opacity: 1;
         background: var(--custom-sp-color-border-blink);
     }
+
+.GamepadMode.friendlist .TabPanelHeader .NewChatGroupButton.gpfocus, .GamepadMode.friendlist .TabPanelHeader .AddFriendButton.gpfocus, .GamepadMode.friendlist .TabPanelHeader .FriendsInvitesButton.gpfocus {
+    color: var(--custom-sp-color);
+}
 
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
     color: var(--custom-sp-color);
@@ -791,12 +848,44 @@ rect.downloadgraph_GraphBar_3raSL {
     color: var(--custom-sp-color);
 }
 
+.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
+    color: var(--custom-sp-color);
+}
+
+.chatRoomGroupHeader.GamepadMode .chatRoomGroupHeaderName, .GamepadMode .chatRoomGroupHeader .chatRoomGroupHeaderName {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .appdetailsplaysection_MenuButton_3qDWQ:focus svg {
+    color: var(--custom-sp-color2);
+}
+
 .ingame .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN.GamepadMode, .GamepadMode .ingame .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN {
     color: var(--custom-sp-color2) !important;
 }
 
 .friendsnooze_SnoozeContainer_37Qst.online .friendsnooze_SnoozeZ_2urc6.GamepadMode, .GamepadMode .friendsnooze_SnoozeContainer_37Qst.online .friendsnooze_SnoozeZ_2urc6 {
     color: var(--custom-sp-color2);
+}
+
+.isCurrentUser .messages_SpeakerName_Online_7B6M2.GamepadMode, .GamepadMode .isCurrentUser .messages_SpeakerName_Online_7B6M2 {
+    color: var(--custom-sp-color);
+}
+
+.multiChatDialog.GamepadMode .speakerTimeStamp, .GamepadMode .multiChatDialog .speakerTimeStamp {
+    color: var(--custom-sp-color2);
+}
+
+.messages_SpeakerName_Default_2NMuV.GamepadMode, .GamepadMode .messages_SpeakerName_Default_2NMuV {
+    color: var(--custom-sp-color);
+}
+
+.friendslist_LastMessage_3HNwU.GamepadMode, .GamepadMode .friendslist_LastMessage_3HNwU {
+    color: var(--custom-sp-color2);
+}
+
+.recentchatssteamdeck_RecentChatsList_2-4f0 .recentchatssteamdeck_RecentChatElement_1-Coz .recentchatssteamdeck_Time_20ewu {
+    color: var(--custom-sp-color);
 }
 
 .online .personanameandstatus_richPresenceLabel_1whoN.GamepadMode, .GamepadMode .online .personanameandstatus_richPresenceLabel_1whoN, .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a, .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:hover.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:hover, .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:active.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:active, .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:visited.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_1pRZ3.personanameandstatus_richPresenceLabel_1whoN a:visited {
@@ -813,6 +902,10 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .friendGroup .groupName.GamepadMode.gpfocus, .GamepadMode .friendGroup .groupName.gpfocus {
     color: var(--custom-sp-color) !important;
+}
+
+.ingame.awayOrSnooze .personanameandstatus_richPresenceLabel_1whoN.GamepadMode, .GamepadMode .ingame.awayOrSnooze .personanameandstatus_richPresenceLabel_1whoN, .ingame .personanameandstatus_richPresenceLabel_1whoN.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1whoN, .ingame .personanameandstatus_richPresenceLabel_1whoN a.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1whoN a, .ingame .personanameandstatus_richPresenceLabel_1whoN a:hover.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1whoN a:hover, .ingame .personanameandstatus_richPresenceLabel_1whoN a:active.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1whoN a:active, .ingame .personanameandstatus_richPresenceLabel_1whoN a:visited.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1whoN a:visited {
+    color: var(--custom-sp-color);
 }
 
 .offline .personanameandstatus_playerName_1ocG6.GamepadMode, .GamepadMode .offline .personanameandstatus_playerName_1ocG6 {
@@ -872,7 +965,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn70.DialogButton:enabled, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:hover, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover {
@@ -880,23 +973,23 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .dropdownlabel_DropDownLabelTitle_uDBZW {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color2) !important;
 }
 
 .dropdownlabel_DropDownLabelUpperDescription_2_JN3 {
-    color: var(--custom-sp-color2) !important;
-}
-
-.dropdownlabel_DropDownLabelDescription_1JPcb {
-    color: var(--custom-sp-color2) !important;
-}
-
-.gamepaddialog_ToggleSwitch_3__OD {
     color: var(--custom-sp-color) !important;
 }
 
+.dropdownlabel_DropDownLabelDescription_1JPcb {
+    color: var(--custom-sp-color) !important;
+}
+
+.gamepaddialog_ToggleSwitch_3__OD {
+    color: var(--custom-sp-color);
+}
+
 .gamepaddialog_ToggleRail_2JtC3::before {
-    background: var(--custom-sp-color2) !important;
+    background: var(--custom-sp-color2);
 }
 
 .gamepaddialog_LabelFieldValue_5Mylh {
@@ -904,31 +997,31 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .gamepadslider_SliderTrack_Mq25N {
-    --left-track-color: var(--custom-sp-color2) !important;
+    --left-track-color: var(--custom-sp-color2);
 }
 
 .gamepadslider_SliderHandle_2yVKj {
-    background: var(--custom-sp-color) !important;
+    background: var(--custom-sp-color);
 }
 
 .gamepadslider_SliderControlWithIcon_2M8Pt.gpfocuswithin {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .displaysettings_TimeRangeControls_10XNA .displaysettings_And_sL5P5 {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .bluetoothsettings_NotConnectedLabel_31Z4e {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
-    background-color: var(--custom-sp-color2) !important;
+    background-color: var(--custom-sp-color2);
 }
 
 .notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC {
@@ -940,31 +1033,31 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .online .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .online .personanameandstatus_playerName_r62qz {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .online .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, .GamepadMode .online .personanameandstatus_richPresenceLabel_1k82N, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode, .GamepadMode .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .familysettings_UserListHeader_2LOrs {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .remoteplaysettings_TableHeader_1HL6K {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .homesettings_HiddenGameLabel_3p6Jb .homesettings_GameCount_1Bv_r {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .contentmanagement_InstallFolder_12aBP {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .contentmanagement_DriveName_1rihl {
@@ -972,7 +1065,7 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .contentmanagement_DriveSize_5bG9I {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .contentmanagement_IsSelected_3VQeL {
@@ -984,7 +1077,7 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
@@ -992,41 +1085,41 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .contentmanagement_InstallFolder_12aBP .contentmanagement_FolderInfo_2ylO_ svg {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .contentmanagement_DriveUsageText_1DFCG, .contentmanagement_DriveUsageNumber_181OY {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .contentmanagement_DriveUsageNumber_181OY {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
     opacity: .9;
 }
 
 .contentmanagement_DriveUsageGames_22KCi {
-    color: var(--custom-sp-color2) !important;
+    background-color: var(--custom-sp-color2);
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
     .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_AppHeaderValue_3X3BB {
-        color: var(--custom-sp-color) !important;
+        color: var(--custom-sp-color);
         opacity: 0.7
     }
 
     .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa .contentmanagement_Rule_2iZ4o {
-        color: var(--custom-sp-color2) !important;
+        color: var(--custom-sp-color2);
     }
 
 .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW.sortingdropdowncontrolbutton_SortingDropDownControlButton_2ddeJ {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:focus {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
     background: #3d4450;
 }
 
@@ -1035,15 +1128,15 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppName_YxhO6 {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .BasicUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .BasicUI .downloadsettings_BandwidthInput_3Z54c, .BasicUI .downloadsettings_BandwidthInput_3Z54c:enabled, .BasicUI .downloadsettings_BandwidthInput_3Z54c:active, .BasicUI .downloadsettings_BandwidthInput_3Z54c:hover, .BasicUI .downloadsettings_BandwidthInput_3Z54c:enabled:active:hover {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active:active, button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:hover:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
@@ -1051,23 +1144,23 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_But
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9 {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .BasicUI .spotlightgameplaysummary_GamePlaySummaryHeader_2_sR8 {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .BasicUI .appdetailsplaysection_PlayBarLabel_34lrt {
-    color: var(--custom-sp-color) !important;
+    color: var(--custom-sp-color);
 }
 
 .BasicUI .appdetailsplaysection_PlayBarDetailLabel_2TYVG, .BasicUI .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .BasicUI .appdetailsplaysection_MenuButton_3qDWQ svg {
-    color: var(--custom-sp-color2) !important;
+    color: var(--custom-sp-color2);
 }
 
 .BasicUI .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus {
@@ -1341,6 +1434,10 @@ body, body.shared_common_v6_3r3Le {
     color: var(--custom-sp-color);
 }
 
+.quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedLabel_4hS40 {
+    color: var(--custom-sp-color);
+}
+
 .quickaccesscontrols_PanelSectionTitle_2iFf9 {
     color: var(--custom-sp-color);
 }
@@ -1398,7 +1495,7 @@ body, body.shared_common_v6_3r3Le {
 }
 
 .friendslist_TabBumper_3Jr0A.GamepadMode svg path, .GamepadMode .friendslist_TabBumper_3Jr0A svg path {
-    color: var(--custom-sp-color);
+    fill: var(--custom-sp-color);
 }
 
 .quickaccesscontrols_BatteryPercentageLabel_3Rxxi {
@@ -1433,8 +1530,16 @@ button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw {
     color: var(--custom-sp-color2) !important;
 }
 
+.gamepadhomerecentgames_RecentGamesHeader_35iRe {
+    color: var(--custom-sp-color);
+}
+
 button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
     color: var(--custom-sp-color) !important;
+}
+
+.header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
+    background-color: var(--custom-sp-color2);
 }
 
 .gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
