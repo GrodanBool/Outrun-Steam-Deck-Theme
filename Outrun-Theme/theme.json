@@ -35,19 +35,19 @@
       "type": "dropdown",
       "values": {
         "White": {
-          "colors/white.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/white2.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Cyan": {
-          "colors/cyan.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/cyan2.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Pink": {
-          "colors/pink.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/pink2.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Red": {
-          "colors/red.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/red2.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Yellow": {
-          "colors/yellow.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/yellow2.css": [ "SP", "QuickAccess", "MainMenu" ]
         }
       }
     }
