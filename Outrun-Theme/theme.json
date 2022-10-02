@@ -14,19 +14,19 @@
       "type": "dropdown",
       "values": {
         "White": {
-          "colors/color1/white.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/white.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Cyan": {
-          "colors/color1/cyan.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/cyan.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Pink": {
-          "colors/color1/pink.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/pink.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Red": {
-          "colors/color1/red.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/red.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Yellow": {
-          "colors/color1/yellow.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/yellow.css": [ "SP", "QuickAccess", "MainMenu" ]
         }
       }
     },
@@ -35,19 +35,19 @@
       "type": "dropdown",
       "values": {
         "White": {
-          "colors/color2/white.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/white.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Cyan": {
-          "colors/color2/cyan.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/cyan.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Pink": {
-          "colors/color2/pink.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/pink.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Red": {
-          "colors/color2/red.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/red.css": [ "SP", "QuickAccess", "MainMenu" ]
         },
         "Yellow": {
-          "colors/color2/yellow.css": [ "SP", "QuickAccess", "MainMenu" ]
+          "colors/yellow.css": [ "SP", "QuickAccess", "MainMenu" ]
         }
       }
     }
