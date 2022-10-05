@@ -1,0 +1,177 @@
+:root {
+    --custom-sp-color: rgb(45, 226, 230);
+    --custom-sp-filter: invert(91%) sepia(55%) saturate(4974%) hue-rotate(132deg) brightness(20000%) contrast(98%);
+}
+
+
+img[src="/steaminputglyphs/sd_button_menu.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_button_view.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_button_a.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_button_b.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_button_x.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_button_y.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l1.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l2.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l2_half.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l4.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_l5.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r1.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r2.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r2_half.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r4.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_r5.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad_down.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad_left.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad_right.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_dpad_up.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_l3.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_r3.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_lstick.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_rstick.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_lstick_touch.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_rstick_touch.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/shared_gyro.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_click.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_down.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_left.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_right.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_ring.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_swipe.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_ltrackpad_up.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_click.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_down.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_left.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_right.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_ring.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_swipe.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+img[src="/steaminputglyphs/sd_rtrackpad_up.svg"] {
+    filter: var(--custom-sp-filter);
+}
+
+.footericons_Light_2e0Fq .footericons_Background_I3P4e {
+    color: var(--custom-sp-color);
+}
