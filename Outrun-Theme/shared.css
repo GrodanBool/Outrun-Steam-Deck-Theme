@@ -619,7 +619,6 @@ rect.downloadgraph_GraphBar_3raSL {
 .SVGIcon_Button {
     color: var(--custom-sp-color);
 }
-/*might be a problem*/
 
 .salepreviewwidgets_SingleLineOriginalPrice_1_ZF5 {
     color: var(--custom-sp-color);
@@ -640,6 +639,10 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .discoveryqueuewizard_RelevantItem_3I77j {
     color: var(--custom-sp-color2);
+}
+
+.appdetailsfeatureicon_Container_1SIa8 .appdetailsfeatureicon_Icon_2RwHE {
+    filter: var(--custom-sp-filter);
 }
 
 .BasicUI .gamehover_ReviewScore_24NyY .gamehover_ReviewScoreHeader_2SFxx, .BasicUI .gamehover_ReviewScore_24NyY .gamehover_ReviewScoreCount_1Deyv {
@@ -1418,6 +1421,14 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_But
 }
 
 .BasicUI .appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_SectionContainer_1uS70 .appdetailsgameinfopanel_GameDescription_3GkV1 {
+    color: var(--custom-sp-color2);
+}
+
+.appdetailsgameinfopanel_Container_2jPMy .appdetailsgameinfopanel_Stats_3cntz .appdetailsgameinfopanel_Release_1OWQ9 .appdetailsgameinfopanel_Label_1vYL2 {
+    color: var(--custom-sp-color);
+}
+
+.appdetailsgameinfopanel_Container_2jPMy {
     color: var(--custom-sp-color2);
 }
 
