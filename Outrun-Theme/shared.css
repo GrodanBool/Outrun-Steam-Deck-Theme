@@ -288,15 +288,6 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
     color: var(--custom-sp-color);
-    font-size: x-small;
-}
-
-.BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_ProgressDetails_sv3ZH, .BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_AutoUpdateSettings_22mb5, .BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_PatchNotes_3kXEp {
-    font-size: x-small;
-}
-
-.marquee_Content_2ADpT {
-    font-size: medium;
 }
 
 .appportrait_UninstalledBar_kX-tI .appportrait_UninstalledProgressBar_mA39H {
@@ -373,10 +364,6 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .appdetailsplaysection_CloudStatusIcon_1Prjv {
     color: var(--custom-sp-color);
-}
-
-.downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE div {
-    font-size: xx-small;
 }
 
 .groupHeaderContainer .SortByRecent .SVGIcon_SortBy {
@@ -525,7 +512,6 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .appgrid_AppGridSectionLabel_2hvQb {
     color: var(--custom-sp-color);
-    font-size: 14px;
 }
 
 .gamepadtabbedpage_Tab_3eEbS {
@@ -1628,7 +1614,6 @@ button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw {
 
 button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
     color: var(--custom-sp-color) !important;
-    font-size: xx-small;
 }
 
 .header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
