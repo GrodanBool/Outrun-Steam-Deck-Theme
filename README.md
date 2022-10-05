@@ -20,9 +20,9 @@
  - No QAM Blur
 
 ## Installation
-1. [Install Decky on your Steam Deck.](https://github.com/SteamDeckHomebrew/decky-loader#installation)
-2. Install the [CSS Loader plugin](https://github.com/suchmememanyskill/SDH-CssLoader) from the Decky plugin store.
-3. Install the latest release of the theme from the CSS Loader (not currently supported) or [GitHub]([https://github.com/SteamDeckHomebrew/decky-loader#installation](https://github.com/GrodanBool/Outrun-Steam-Deck-Theme/releases/tag/v0.2-alpha))
+1. [Install Decky.](https://github.com/SteamDeckHomebrew/decky-loader#installation)
+2. Install the [CSS Loader plugin](https://github.com/suchmememanyskill/SDH-CssLoader).
+3. Install the latest release of the theme from the CSS Loader (not currently supported) or [GitHub.]([https://github.com/SteamDeckHomebrew/decky-loader#installation](https://github.com/GrodanBool/Outrun-Steam-Deck-Theme/releases/tag/v0.2-alpha)
  
  ![Standard Colors](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-n.jpg?raw=true)
  ![Inverted Standard](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-inverted.jpg?raw=true)
