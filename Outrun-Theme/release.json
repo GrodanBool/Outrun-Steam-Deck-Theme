@@ -1,4 +1,4 @@
 {
-    "include": ["Commando.woff"],
+    "include": ["\font\font\Commando.woff"],
     "ignore": ["README.MD", "README.md", "Readme.md", "readme.md"]
 }
