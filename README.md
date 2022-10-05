@@ -7,14 +7,14 @@
  - Round
  - Obsidian
  
- Here's also a Boot Video made by u/Perfect_Aim and together with the Night Shift keyboard layout they really complete the look. [Reddit Thread](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) and [Drive Link.](https://drive.google.com/drive/folders/1p-zPQ04olDRgBdEb9ouuz_bBTK-CJkME)
+ Here's also a Boot Video made by u/Perfect_Aim and together with the Night Shift keyboard layout they really complete the look. [Reddit Thread](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) and [Drive Link](https://drive.google.com/drive/folders/1p-zPQ04olDRgBdEb9ouuz_bBTK-CJkME).
  
- The [Font](https://fontmeme.com/fonts/commando-font/) I used in this project is made by [Defaulterror.](https://fontmeme.com/fonts/defaulterror-listing/)
+ The [Font](https://fontmeme.com/fonts/commando-font/) I used in this project is made by [Defaulterror](https://fontmeme.com/fonts/defaulterror-listing/).
 
 ## Installation
-1. [Install Decky.](https://github.com/SteamDeckHomebrew/decky-loader#installation)
+1. [Install Decky](https://github.com/SteamDeckHomebrew/decky-loader#installation).
 2. Install the [CSS Loader plugin](https://github.com/suchmememanyskill/SDH-CssLoader).
-3. Install the latest release of the theme from the CSS Loader (not currently supported) or [GitHub.](https://github.com/GrodanBool/Outrun-Steam-Deck-Theme/releases/tag/v0.4-alpha)
+3. Install the latest release of the theme from the CSS Loader (not currently supported) or [GitHub](https://github.com/GrodanBool/Outrun-Steam-Deck-Theme/releases/tag/v0.4-alpha).
  
  
  
@@ -33,11 +33,7 @@
  - No Home Filter
  - No QAM Blur
 
-### Standard Colors
- ![Standard Colors](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-n.jpg?raw=true)
-### Standard Colors Inverted
- ![Inverted Standard](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-inverted.jpg?raw=true)
-### Cyberpunk Colors
- ![Cyberpunk](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-n.jpg?raw=true)
-### Cyberpunk Colors Inverted
- ![Cyberpunk Inverted](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-inverted.jpg?raw=true)
+| Standard Colors | Inverted colors  |
+|--------------------|------------------|
+| ![Standard Colors](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-n.jpg?raw=true) | ![Inverted Standard](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-inverted.jpg?raw=true) |
+| ![Cyberpunk](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-n.jpg?raw=true) | ![Cyberpunk Inverted](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-inverted.jpg?raw=true) |
