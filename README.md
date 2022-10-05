@@ -7,7 +7,7 @@
  - Round
  - Obsidian
  
- Here's also a [Boot Video](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) (made by u/Perfect_Aim) to really complete the look.
+ Here's also a Boot Video made by u/Perfect_Aim and together with the Night Shift keyboard layout they really complete the look. [Reddit Thread](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) and [Drive Link.](https://drive.google.com/drive/folders/1p-zPQ04olDRgBdEb9ouuz_bBTK-CJkME)
 
 ## Installation
 1. [Install Decky.](https://github.com/SteamDeckHomebrew/decky-loader#installation)
