@@ -7,7 +7,7 @@
  - Round
  - Obsidian
  
- [Here's also a boot video to really spice it up.](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/)
+ Here's also a [Boot Video](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) to really spice it up.
  
  Applied themes in the following screenshots are:
  
