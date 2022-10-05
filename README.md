@@ -8,8 +8,18 @@
  - Obsidian
  
  Here's also a [Boot Video](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) to really spice it up.
+
+## Installation
+1. [Install Decky.](https://github.com/SteamDeckHomebrew/decky-loader#installation)
+2. Install the [CSS Loader plugin](https://github.com/suchmememanyskill/SDH-CssLoader).
+3. Install the latest release of the theme from the CSS Loader (not currently supported) or [GitHub.](https://github.com/GrodanBool/Outrun-Steam-Deck-Theme/releases/tag/v0.2-alpha)
  
- Applied themes in the following screenshots are:
+ 
+ 
+## Screenshots
+
+
+ ###Applied themes in the following screenshots are:
  
  - Switch Like Home
  - Round
@@ -21,14 +31,6 @@
  - No Home Filter
  - No QAM Blur
 
-## Installation
-1. [Install Decky.](https://github.com/SteamDeckHomebrew/decky-loader#installation)
-2. Install the [CSS Loader plugin](https://github.com/suchmememanyskill/SDH-CssLoader).
-3. Install the latest release of the theme from the CSS Loader (not currently supported) or [GitHub.](https://github.com/GrodanBool/Outrun-Steam-Deck-Theme/releases/tag/v0.2-alpha)
- 
- 
- 
-## Screenshots
 ### Standard Colors
  ![Standard Colors](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-n.jpg?raw=true)
 ### Standard Colors Inverted
