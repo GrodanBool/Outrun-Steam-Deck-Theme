@@ -1,0 +1,9 @@
+@font-face {
+	font-family: Commando;
+	src: url('/themes_custom/Outrun-Theme/font/Commando.woff') format('woff');
+	/*Font made by defaulterror https://fontmeme.com/fonts/defaulterror-listing/ */
+}
+
+* {
+	font-family: Commando !important;
+}

@@ -466,6 +466,10 @@ rect.downloadgraph_GraphBar_3raSL {
     box-shadow: 0px 0px 10px 0px var(--custom-sp-color-shadow);
 }
 
+.appdetailsfriendssection_AvatarAndLabel_1GCZA .appdetailsfriendssection_PlaytimeStatus_1xGH4 {
+    color: var(--custom-sp-color2) !important;
+}
+
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg {
     background: #67707b;
     color: black;
