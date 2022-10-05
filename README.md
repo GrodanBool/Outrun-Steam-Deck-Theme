@@ -8,6 +8,8 @@
  - Obsidian
  
  Here's also a Boot Video made by u/Perfect_Aim and together with the Night Shift keyboard layout they really complete the look. [Reddit Thread](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) and [Drive Link.](https://drive.google.com/drive/folders/1p-zPQ04olDRgBdEb9ouuz_bBTK-CJkME)
+ 
+ The [Font](https://fontmeme.com/fonts/commando-font/) I used in this project is made by [Defaulterror.](https://fontmeme.com/fonts/defaulterror-listing/)
 
 ## Installation
 1. [Install Decky.](https://github.com/SteamDeckHomebrew/decky-loader#installation)
