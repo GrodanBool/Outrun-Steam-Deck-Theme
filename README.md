@@ -7,7 +7,7 @@
  - Round
  - Obsidian
  
- Here's also a [Boot Video](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) to really spice it up.
+ Here's also a [Boot Video](https://www.reddit.com/r/SteamDeck/comments/xpnmnb/quick_synthwaveoutrun_boot_animation_i_made/) to really complete the look.
 
 ## Installation
 1. [Install Decky.](https://github.com/SteamDeckHomebrew/decky-loader#installation)
