@@ -1,4 +1,4 @@
 {
-    "include": [ "Commando.woff" ],
-    "ignore": ["README.MD", "README.md", "Readme.md", "readme.md"]
+    "include": [],
+    "ignore": ["README.MD", "README.md", "Readme.md", "readme.md", "commando.woff", "Commando.woff", "commando.Woff", "Commando.Woff"]
 }
