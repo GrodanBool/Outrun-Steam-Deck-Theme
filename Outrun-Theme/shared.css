@@ -338,7 +338,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {
-    background-color: #585858;
+    background-color: #67707b;
 }
 
     .BasicUI .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus::placeholder {
@@ -350,7 +350,24 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .BasicUI .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
-    background-color: var(--custom-sp-color);
+    background-color: #3d4450;
+    color: var(--custom-sp-color2) !important;
+}
+
+.notificationcontent_StandardTemplate_1B_uv .notificationcontent_StandardNotificationSubText_3iYf4, .notificationcontent_PinnedTemplate_H_NPi .notificationcontent_StandardNotificationSubText_3iYf4 {
+    color: var(--custom-sp-color2)
+}
+
+.appdetailsplaysection_CloudStatusIcon_1Prjv {
+    color: var(--custom-sp-color);
+}
+
+.groupHeaderContainer .SortByRecent .SVGIcon_SortBy {
+    stroke: var(--custom-sp-color);
+}
+
+.contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppInfoItem_1L9a0 svg {
+    color: var(--custom-sp-color);
 }
 
 .downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled {
@@ -358,7 +375,11 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
-    background: var(--custom-sp-color);
+    color: var(--custom-sp-color2) !important;
+}
+
+.downloads_SectionItemWrapper_21P7c.gpfocus .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled svg {
+    color: var(--custom-sp-color2);
 }
 
 .downloads_ProgressDetails_sv3ZH .downloads_Label_3a973 {
@@ -446,21 +467,21 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg {
-    background: #585858;
+    background: #67707b;
     color: black;
 }
 
     .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D, .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.Stop, .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.Cancel {
-        background: var(--custom-sp-color);
+        background: #67707b;
         color: black;
     }
 
 .BasicUI .downloadsettings_BandwidthInput_3Z54c:focus {
-    background: #585858
+    background: #67707b
 }
 
 .basiccontextmenu_contextMenuItem_3PqLg {
-    background: none;
+    background: black;
     color: var(--custom-sp-color2) !important;
 }
 
@@ -491,7 +512,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
     .gamepadtabbedpage_Tab_3eEbS.gpfocus {
-        background-color: #585858;
+        background-color: #67707b;
         color: var(--custom-sp-color);
     }
 
@@ -719,7 +740,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .gamepaddialog_BasicTextInput_3GCBi.gpfocus, .gamepaddialog_BasicTextInput_3GCBi.gpfocus:hover {
-    background: #585858;
+    background: #67707b;
     color: var(--custom-sp-color2);
 }
 
@@ -958,6 +979,7 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .gamepaddialog_FieldLabel_3b0U- {
     color: var(--custom-sp-color2) !important;
+    fill: var(--custom-sp-color);
 }
 
 .gamepaddialog_FieldDescription_2OJfk {
@@ -971,6 +993,27 @@ rect.downloadgraph_GraphBar_3raSL {
 button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn70.DialogButton:enabled, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:hover, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover {
     color: var(--custom-sp-color) !important;
 }
+
+.appdetailssectionoffline_OfflineSectionBody_2dnxv {
+    color: var(--custom-sp-color2);
+}
+
+.BasicUI .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .appactionbutton_ButtonChild_2AzIX {
+    color: var(--custom-sp-color);
+}
+
+    .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus {
+        background: var(--custom-sp-color);
+        color: var(--custom-sp-color2);
+    }
+
+    .gamepaddialog_FieldLabel_3b0U- svg {
+        color: var(--custom-sp-color);
+    }
 
 .dropdownlabel_DropDownLabelTitle_uDBZW {
     color: var(--custom-sp-color2) !important;
@@ -1140,7 +1183,7 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active, button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:active:active, button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:hover:active, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active {
-    background: #585858;
+    background: #67707b;
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyRight_3vHX3 .contentmanagement_AppSize_mohK9 {
@@ -1571,7 +1614,7 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 }
 
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:active.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:active:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:hover.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:hover:active.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.gpfocus.Primary, button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover:active.Primary {
-    background: #585858
+    background: #67707b
 }
 
 .loginpanel_Header_3IMA7 {
@@ -1648,8 +1691,8 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 
 .controllerconfiguratorchoosebinding_TriggerButton_2MjBd.gpfocus, .controllerconfiguratorchoosebinding_BumperButton_2swvc.gpfocus {
     filter: drop-shadow(0px 0px 10px var(--custom-sp-color);
-    border-color: #585858;
-    background: #585858;
+    border-color: #67707b;
+    background: #67707b;
 }
 
 .gpfocus .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I {
