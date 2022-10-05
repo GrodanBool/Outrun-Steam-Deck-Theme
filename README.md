@@ -19,7 +19,7 @@
 ## Screenshots
 
 
- ###Applied themes in the following screenshots are:
+ ### Applied themes in the following screenshots are:
  
  - Switch Like Home
  - Round
