@@ -9,13 +9,23 @@
   },
   "manifest_version": 3,
   "patches": {
-    "Button Colors": {
+   "Button Colors": {
       "default": "No",
       "type": "checkbox",
       "values": {
         "No": {},
         "Yes": {
           "filters.css": [ "SP", "QuickAccess", "MainMenu" ]
+        }
+      }
+    },
+    "Font": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "font/font.css": [ "SP", "QuickAccess", "MainMenu" ]
         }
       }
     },

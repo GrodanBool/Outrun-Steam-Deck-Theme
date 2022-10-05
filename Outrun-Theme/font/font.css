@@ -1,0 +1,37 @@
+@font-face {
+	font-family: Commando;
+	src: url('/themes_custom/Outrun-Theme/font/font/Commando.woff') format('woff');
+	/*Font made by defaulterror https://fontmeme.com/fonts/defaulterror-listing/ */
+}
+
+* {
+	font-family: Commando !important;
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
+	font-size: x-small;
+}
+
+.BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_ProgressDetails_sv3ZH, .BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_AutoUpdateSettings_22mb5, .BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_PatchNotes_3kXEp {
+	font-size: x-small;
+}
+
+.marquee_Content_2ADpT {
+	font-size: medium;
+}
+
+.downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE div {
+	font-size: xx-small;
+}
+
+.appgrid_AppGridSectionLabel_2hvQb {
+	font-size: 14px;
+}
+
+button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
+	font-size: xx-small;
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
+	font-size: xx-small;
+}
