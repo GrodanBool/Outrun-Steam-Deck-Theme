@@ -1289,7 +1289,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_But
     color: var(--custom-sp-color);
 }
 
-.appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq a:-webkit-any-link {
+.appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq a-webkit-any-link {
     color: var(--custom-sp-color);
 }
 
@@ -1647,7 +1647,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 }
 
 .controllerconfiguratorchoosebinding_TriggerButton_2MjBd.gpfocus, .controllerconfiguratorchoosebinding_BumperButton_2swvc.gpfocus {
-    filter: drop-shadow(0px 0px 10px var(--custom-sp-color);
+    filter: drop-shadow(0px 0px 10px var(--custom-sp-color));
     border-color: #585858;
     background: #585858;
 }
