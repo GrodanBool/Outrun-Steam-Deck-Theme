@@ -1,4 +1,5 @@
 :root {
+    --custom-sp-color: rgb(45, 226, 230);
     --custom-sp-filter: invert(91%) sepia(55%) saturate(4974%) hue-rotate(132deg) brightness(20000%) contrast(98%);
 }
 
@@ -169,4 +170,8 @@ img[src="/steaminputglyphs/sd_rtrackpad_swipe.svg"] {
 
 img[src="/steaminputglyphs/sd_rtrackpad_up.svg"] {
     filter: var(--custom-sp-filter);
+}
+
+.footericons_Light_2e0Fq .footericons_Background_I3P4e {
+    color: var(--custom-sp-color);
 }
