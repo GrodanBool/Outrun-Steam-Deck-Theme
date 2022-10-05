@@ -9,6 +9,16 @@
   },
   "manifest_version": 3,
   "patches": {
+    "Button Colors": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "filters.css": [ "SP", "QuickAccess", "MainMenu" ]
+        }
+      }
+    },
     "Theme Color 1": {
       "default": "Cyan",
       "type": "dropdown",
