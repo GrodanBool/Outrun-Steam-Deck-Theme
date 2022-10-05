@@ -33,11 +33,7 @@
  - No Home Filter
  - No QAM Blur
 
-### Standard Colors
- ![Standard Colors](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-n.jpg?raw=true)
-### Standard Colors Inverted
- ![Inverted Standard](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-inverted.jpg?raw=true)
-### Cyberpunk Colors
- ![Cyberpunk](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-n.jpg?raw=true)
-### Cyberpunk Colors Inverted
- ![Cyberpunk Inverted](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-inverted.jpg?raw=true)
+|### Standard Colors | Inverted colors  |
+|--------------------|------------------|
+| ![Standard Colors](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-n.jpg?raw=true) | ![Inverted Standard](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-pink-inverted.jpg?raw=true) |
+| ![Cyberpunk](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-n.jpg?raw=true) | ![Cyberpunk Inverted](https://github.com/GrodanBool/Border-and-Shadow-Edit/blob/main/cyan-yellow-inverted.jpg?raw=true) |
