@@ -1,5 +1,5 @@
 # Outrun Theme
- A theme for the Steam Deck folowing the Outrun/Cyberpunk color scheme, currently it applies system wide, although i might have missed a few things. 
+ A theme for the Steam Deck folowing the Outrun/SynthWave/RetroWave/Cyberpunk color scheme, currently it applies system wide, although i might have missed a few things. 
  
  The following themes are not required by the Outrun theme but they do complement it well:
  
