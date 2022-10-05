@@ -288,6 +288,19 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
     color: var(--custom-sp-color);
+    font-size: x-small;
+}
+
+.BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_ProgressDetails_sv3ZH, .BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_AutoUpdateSettings_22mb5, .BasicUI .downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_PatchNotes_3kXEp {
+    font-size: x-small;
+}
+
+.marquee_Content_2ADpT {
+    font-size: medium;
+}
+
+.appportrait_UninstalledBar_kX-tI .appportrait_UninstalledProgressBar_mA39H {
+    background-color: var(--custom-sp-color2);
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Status_3BdWq {
@@ -360,6 +373,10 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .appdetailsplaysection_CloudStatusIcon_1Prjv {
     color: var(--custom-sp-color);
+}
+
+.downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE div {
+    font-size: xx-small;
 }
 
 .groupHeaderContainer .SortByRecent .SVGIcon_SortBy {
@@ -1048,6 +1065,7 @@ button.gamepaddialog_Button_1kn70.DialogButton, button.gamepaddialog_Button_1kn7
 
 .BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
     color: var(--custom-sp-color);
+    border-bottom: solid 2px var(--custom-sp-color);
 }
 
 .gamepadslider_SliderTrack_Mq25N {
@@ -1320,7 +1338,23 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_But
 }
 
 .appdetailsplaysection_CloudStatusRow_QvHky:before, .appdetailsplaysection_CloudStatusRow_QvHky:after {
+    background: var(--custom-sp-color);
+}
+
+.achievementslist_AchievementTitle_17dhG {
     color: var(--custom-sp-color);
+}
+
+.achievementslist_AchievementDescription_1WP2Y {
+    color: var(--custom-sp-color2);
+}
+
+.achievementslist_AchievementGlobalPercentage_VQbek {
+    color: var(--custom-sp-color);
+}
+
+.achievementslist_UnlockDate_2fFW2 {
+    color: var(--custom-sp-color2);
 }
 
 .appdetailsfriendssection_FriendsSectionSubHeading_30EfX {
@@ -1344,7 +1378,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_But
 }
 
 .BasicUI .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
-    color: var(--custom-sp-color2);
+    background: var(--custom-sp-color2);
 }
 
 .appdetailsachievementssection_UnlockedLabel_3jC8o {
@@ -1594,6 +1628,7 @@ button.accountpanel_FatButton_TEWms .accountpanel_Label_3wadw {
 
 button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
     color: var(--custom-sp-color) !important;
+    font-size: xx-small;
 }
 
 .header_HeaderDownloadContainer_2ssr3 .header_HeaderAppPortraitContainer_1PbL3 .header_HeaderDownloadProgressBarBackground_vo3Tt .header_HeaderDownloadProgressBar_AK_Ax {
@@ -1601,7 +1636,7 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 }
 
 .gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
-    color: var(--custom-sp-color);
+    background: var(--custom-sp-color);
 }
 
 .accountpanel_Highlight_35ztZ {
