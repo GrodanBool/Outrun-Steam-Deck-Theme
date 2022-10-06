@@ -11,7 +11,7 @@
  
  The [Font](https://fontmeme.com/fonts/commando-font/) I used in this project is made by [Defaulterror](https://fontmeme.com/fonts/defaulterror-listing/).
  
- This is my current favourite [Font](https://blogfonts.com/good-times.font) for this project.
+ This is my current favourite [Font](https://www.dafont.com/good-times.font) for this project.
 
 ## Installation
 1. [Install Decky](https://github.com/SteamDeckHomebrew/decky-loader#installation).
