@@ -9,6 +9,7 @@
     --custom-sp-color-border-fade-100: rgba(45, 226, 230, 0.8);
     --custom-sp-color-border-blink: rgba(45, 226, 230, 0.4);
     --custom-sp-color-shadow-blink: rgba(45, 226, 230, 0.4);
+    --custom-sp-throbber-filter: invert(65%) sepia(78%) saturate(559%) hue-rotate(145deg) brightness(212%) contrast(80%);
     --custom-sp-color2: rgb(246, 1, 157);
     --custom-sp-color2-shadow: rgba(246, 1, 157, 0.8);
     --custom-sp-color2-border: rgba(246, 1, 157, 0.8);
@@ -1558,5 +1559,25 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 }
 
 .gpfocus .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I {
+    color: var(--custom-sp-color);
+}
+
+.loadingthrobber_Container_3sa1N img {
+    filter: var(--custom-sp-throbber-filter)
+}
+
+.applaunchingdetails_ControllerInterstitialAnimationContainer_W-nlX img {
+    filter: var(--custom-sp-throbber-filter)
+}
+
+.applaunchingdetails_ConfigurationHeader_30C5a {
+    color: var(--custom-sp-color2);
+}
+
+.applaunchingdetails_LaunchStatus_1ZWPD {
+    color: var(--custom-sp-color);
+}
+
+.applaunchingdetails_ConfigurationName_XPWRZ {
     color: var(--custom-sp-color);
 }

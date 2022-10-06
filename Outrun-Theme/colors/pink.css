@@ -10,4 +10,5 @@
     --custom-sp-color-border-blink: rgba(246, 1, 157, 0.4);
     --custom-sp-color-shadow-blink: rgba(246, 1, 157, 0.4);
     --custom-sp-filter: invert(44%) sepia(100%) saturate(7489%) hue-rotate(309deg) brightness(92%) contrast(114%);
+    --custom-sp-throbber-filter: invert(44%) sepia(100%) saturate(7489%) hue-rotate(309deg) brightness(92%) contrast(114%);
 }
