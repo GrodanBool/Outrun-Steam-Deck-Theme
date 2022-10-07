@@ -9,6 +9,16 @@
   },
   "manifest_version": 3,
   "patches": {
+    "Footer Border": {
+      "default": "Yes",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "footer.css": [ "SP", "QuickAccess", "MainMenu" ]
+        }
+      }
+    },
     "Button Colors": {
       "default": "No",
       "type": "checkbox",
