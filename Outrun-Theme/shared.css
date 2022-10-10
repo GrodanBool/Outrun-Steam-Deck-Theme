@@ -1576,3 +1576,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 .applaunchingdetails_ConfigurationName_XPWRZ {
     color: var(--custom-sp-color);
 }
+
+.gamepadslider_SliderControlWithIcon_2M8Pt .gamepadslider_Icon_21uKi svg {
+    color: var(--custom-sp-color);
+}
