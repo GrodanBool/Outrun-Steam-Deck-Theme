@@ -1,11 +1,10 @@
 @font-face {
-	font-family: Commando;
+	font-family: Good-Times;
 	src: url('/themes_custom/Outrun-Theme/font/goodtimes/goodtimes.woff') format('woff');
-	/*Font made by defaulterror https://fontmeme.com/fonts/defaulterror-listing/ */
 }
 
 * {
-	font-family: Commando !important;
+	font-family: Good-Times !important;
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
@@ -34,4 +33,28 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 
 .downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
 	font-size: xx-small;
+}
+
+.gamepaddialog_FieldLabel_3b0U- {
+	font-size: 14px;
+}
+
+.DialogDropDown_CurrentDisplay {
+	font-size: 14px;
+}
+
+.basiccontextmenu_contextMenuItem_3PqLg {
+	font-size: 14px;
+}
+
+.dropdownlabel_DropDownLabelTitle_uDBZW {
+	font-size: 14px;
+}
+
+.DialogButton {
+	font-size: 14px !important;
+}
+
+.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m {
+	font-size: 14px;
 }
