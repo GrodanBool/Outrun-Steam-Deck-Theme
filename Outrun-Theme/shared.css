@@ -1853,3 +1853,8 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 .downloads_TopBar_SEmVp {
     background: linear-gradient(to right, var(--custom-sp-color2), var(--custom-sp-color));
 }
+
+.appdetailsactivitysection_NoActivity_2-kDc, .appdetailsactivitysection_Loading_3UShz {
+    color: var(--custom-sp-color);
+    border: 2px dashed var(--custom-sp-color);
+}
