@@ -35,3 +35,7 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 .downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp {
 	font-size: xx-small;
 }
+
+.BasicUI .appdetailsfriendssection_AvatarAndLabel_1GCZA {
+	min-width: 300px;
+}

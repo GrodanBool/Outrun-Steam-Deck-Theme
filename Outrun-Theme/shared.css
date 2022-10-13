@@ -1602,7 +1602,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 }
 
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r {
-    animation-name: none;
+    animation-name: none !important;
 }
 
 .personanameandstatus_richPresenceLabel_1whoN {
@@ -1615,10 +1615,6 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 
 .BasicUI .spotlight_MajorEventHeader_3Qj29 .spotlight_EventType_3Lhg8 span {
     color: var(--custom-sp-color);
-}
-
-.BasicUI .appdetailsfriendssection_AvatarAndLabel_1GCZA {
-    min-width: 250px;
 }
 
 .partnereventdisplay_EventDetailTitle_2_4FS {
@@ -1840,4 +1836,20 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 
 .controllerconfiguratormapping_FieldLabel_kUF-O {
     color: var(--custom-sp-color2);
+}
+
+.ingame.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, .GamepadMode .ingame.awayOrSnooze .personanameandstatus_richPresenceLabel_1k82N, .ingame .personanameandstatus_richPresenceLabel_1k82N.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N, .ingame .personanameandstatus_richPresenceLabel_1k82N a.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N a, .ingame .personanameandstatus_richPresenceLabel_1k82N a:hover.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N a:hover, .ingame .personanameandstatus_richPresenceLabel_1k82N a:active.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N a:active, .ingame .personanameandstatus_richPresenceLabel_1k82N a:visited.GamepadMode, .GamepadMode .ingame .personanameandstatus_richPresenceLabel_1k82N a:visited {
+    color: var(--custom-sp-color2);
+}
+
+.friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl.GamepadMode, .GamepadMode .friendsnooze_SnoozeContainer_3EzTy.in-game .friendsnooze_SnoozeZ_1DArl {
+    color: var(--custom-sp-color2);
+}
+
+.appdetailsfriendssection_FriendsSectionPlayingNow_fPAoc .appdetailsfriendssection_PlayingNowBody_17fER {
+    background-color: inherit;
+}
+
+.downloads_TopBar_SEmVp {
+    background: linear-gradient(to right, var(--custom-sp-color2), var(--custom-sp-color));
 }
