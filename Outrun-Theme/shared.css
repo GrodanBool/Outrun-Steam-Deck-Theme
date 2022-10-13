@@ -73,6 +73,10 @@ rect.downloadgraph_GraphBar_3raSL {
     fill: var(--custom-sp-color2);
 }
 
+.header_BatteryIcon_1_6kL svg path:nth-of-type(1) {
+    fill: var(--custom-sp-color2);
+}
+
 .quickaccesscontrols_BatteryIcon_39aNh rect {
     fill: var(--custom-sp-color2);
 }
@@ -103,6 +107,10 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .BasicUI .header_Header_1E_SL {
     color: var(--custom-sp-color);
+}
+
+.header_Percentage_1_RjA + div svg path:nth-of-type(1) {
+    fill: var(--custom-sp-color) !important;
 }
 
 .actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
