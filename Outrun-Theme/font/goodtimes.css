@@ -83,3 +83,15 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 .BasicUI .appdetailsfriendssection_AvatarAndLabel_1GCZA {
 	min-width: 300px;
 }
+
+.controllerconfiguratorchoosebinding_ChooseBindingLabel_38ghy {
+	font-size: 12px;
+}
+
+.controllerconfiguratorchoosebinding_TriggerButton_2MjBd .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I, .controllerconfiguratorchoosebinding_BumperButton_2swvc .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I, .controllerconfiguratorchoosebinding_SelectButton_3i-XV .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I, .controllerconfiguratorchoosebinding_StartButton_3s28A .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I {
+	font-size: 12px;
+}
+
+.controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I {
+	font-size: 10px;
+}

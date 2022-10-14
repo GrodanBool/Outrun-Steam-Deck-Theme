@@ -1862,3 +1862,63 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 .achievementspage_MyAchievementsHeader_2UpV2 .achievementspage_Label_2LSKt {
     color: var(--custom-sp-color);
 }
+
+.gamepaddialog_Field_S-_La .Focusable {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfiguratormapping_SettingFieldDescription_16pDD {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfiguratormapping_SettingsSource_2qxNZ {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_DialogHeader_3PYip {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_DescLabel_19njk {
+    color: var(--custom-sp-color2);
+}
+
+.controllerconfigurator_interstitial_InterstitialGlyphButton_2vQ2X {
+    filter: var(--custom-sp-filter);
+}
+
+.controllerconfigurator_interstitial_ActionSetItem_3BBZa .controllerconfigurator_interstitial_Highlight_1FZA8 {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_ActionSetItem_3BBZa .controllerconfigurator_interstitial_ControlLabel_tGJeF {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_Highlight_1FZA8 {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_ActionSetLayout_3bHO_ .controllerconfigurator_interstitial_SetLabel_3b0XB {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_ActionSetLayout_3bHO_ .controllerconfigurator_interstitial_ActionSetRow_2lCWy {
+    border-bottom: 1px solid var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_ActionSetLayout_3bHO_ .controllerconfigurator_interstitial_LayerRow_Y2Szn {
+    border-bottom: 1px solid var(--custom-sp-color);
+}
+
+.guidedtour_PageIndicator_4hJJR.guidedtour_Active_2SNXu {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_ActionSetLayout_3bHO_ .controllerconfigurator_interstitial_ControlLabel_tGJeF {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_ActionSetLayout_3bHO_ .controllerconfigurator_interstitial_ActivatorLabel_3wck6 {
+    color: var(--custom-sp-color);
+}
