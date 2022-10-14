@@ -1858,3 +1858,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
     color: var(--custom-sp-color);
     border: 2px dashed var(--custom-sp-color);
 }
+
+.achievementspage_MyAchievementsHeader_2UpV2 .achievementspage_Label_2LSKt {
+    color: var(--custom-sp-color);
+}
