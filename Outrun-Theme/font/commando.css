@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Commando;
-	src: url('/themes_custom/Outrun-Theme/font/font/Commando.woff') format('woff');
+	src: url('/themes_custom/Outrun-Theme/font/commando/commando.woff') format('woff');
 	/*Font made by defaulterror https://fontmeme.com/fonts/defaulterror-listing/ */
 }
 
@@ -38,4 +38,66 @@ button.accountpanel_FatButton_TEWms .accountpanel_Details_3Wb9y {
 
 .BasicUI .appdetailsfriendssection_AvatarAndLabel_1GCZA {
 	min-width: 300px;
+}
+
+
+.gamepaddialog_FieldLabel_3b0U- {
+	font-size: 14px;
+}
+
+.DialogDropDown_CurrentDisplay {
+	font-size: 14px;
+}
+
+.basiccontextmenu_contextMenuItem_3PqLg {
+	font-size: 14px;
+}
+
+.dropdownlabel_DropDownLabelTitle_uDBZW {
+	font-size: 14px;
+}
+
+.DialogButton {
+	font-size: 14px !important;
+}
+
+.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m {
+	font-size: 14px;
+}
+
+.controllerconfiguratormapping_FieldLabel_kUF-O {
+	font-size: 14px;
+	word-break: normal;
+}
+
+.controllerconfiguratormapping_FieldChildren_1OBro {
+	font-size: 14px;
+}
+
+.controllerconfiguratormapping_FieldChildren_1OBro {
+	font-size: 14px;
+	line-height: 20px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	margin-left: 10px;
+	color: cyan;
+	max-width: 120px;
+}
+
+.BasicUI .appdetailsfriendssection_AvatarAndLabel_1GCZA {
+	min-width: 300px;
+}
+
+.controllerconfiguratorchoosebinding_ChooseBindingLabel_38ghy {
+	font-size: 12px;
+}
+
+.controllerconfiguratorchoosebinding_TriggerButton_2MjBd .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I, .controllerconfiguratorchoosebinding_BumperButton_2swvc .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I, .controllerconfiguratorchoosebinding_SelectButton_3i-XV .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I, .controllerconfiguratorchoosebinding_StartButton_3s28A .controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I {
+	font-size: 12px;
+}
+
+.controllerconfiguratorchoosebinding_KeyboardKeyLabel_eUq_I {
+	font-size: 10px;
 }
