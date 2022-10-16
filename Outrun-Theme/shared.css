@@ -1922,3 +1922,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 .controllerconfigurator_interstitial_ActionSetLayout_3bHO_ .controllerconfigurator_interstitial_ActivatorLabel_3wck6 {
     color: var(--custom-sp-color);
 }
+
+.basicgamecarousel_FeaturedSeparator_1qOWM {
+    background: linear-gradient(to bottom, var(--custom-sp-color2), var(--custom-sp-color), var(--custom-sp-color2));
+}
