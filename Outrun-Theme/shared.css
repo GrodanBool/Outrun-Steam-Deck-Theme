@@ -1926,3 +1926,8 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 .basicgamecarousel_FeaturedSeparator_1qOWM {
     background: linear-gradient(to bottom, var(--custom-sp-color2), var(--custom-sp-color), var(--custom-sp-color2));
 }
+
+.audio_VolumePopin_2iUUM {
+    background: transparent;
+    box-shadow: none;
+}
