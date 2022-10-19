@@ -1634,11 +1634,11 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 }
 
 .discussionwidget_VoteUpIcon_vRT1W {
-    color: var(--custom-sp-color);
+    fill: var(--custom-sp-color);
 }
 
 .discussionwidget_VoteDownIcon_3QPkc {
-    color: var(--custom-sp-color);
+    fill: var(--custom-sp-color);
 }
 
 .discussionwidget_VoteCount_2dVe4, .discussionwidget_DiscussionCount_1GFRK {
@@ -1930,4 +1930,16 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 .audio_VolumePopin_2iUUM {
     background: transparent;
     box-shadow: none;
+}
+
+.basicpartnereventspage_ChannelIndicator_7kr7k {
+    color: var(--custom-sp-color2);
+}
+
+.apppartnereventspage_EventTypeAndTimeRow_11C0z .apppartnereventspage_TimeandPostedBy_ElEkK .apppartnereventspage_EventType_30JUM {
+    color: var(--custom-sp-color2);
+}
+
+.bbcodes_Bold_1opdq {
+    color: var(--custom-sp-color);
 }
