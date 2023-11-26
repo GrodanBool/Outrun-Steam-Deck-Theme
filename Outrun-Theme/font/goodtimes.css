@@ -1,6 +1,7 @@
 @font-face {
 	font-family: Good-Times;
 	src: url('/themes_custom/Outrun-Theme/font/goodtimes/goodtimes.woff') format('woff');
+	src: url('/themes_custom/Outrun Theme/font/goodtimes/goodtimes.woff') format('woff');
 }
 
 * {
