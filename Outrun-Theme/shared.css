@@ -2057,9 +2057,9 @@ div.eventbbcodeparser_Header1_15FlI, div.eventbbcodeparser_Header2_1SWg2, div.ev
 }
 
 .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconLeft_2Ya83 {
-    fill: var(--custom-sp-color);
+    color: var(--custom-sp-color);
 }
 
 .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconRight_1Ka4T {
-    fill: var(--custom-sp-color);
+    color: var(--custom-sp-color);
 }
