@@ -70,7 +70,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .header_HeaderItem_2HnVd.header_BatteryIcon_1_6kL rect {
-    fill: var(--custom-sp-color2);
+    fill: var(--custom-sp-color2) !important;
 }
 
 .header_BatteryIcon_1_6kL svg path:nth-of-type(1) {
@@ -118,7 +118,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .header_Clock_1HhLU {
-    color: var(--custom-sp-color);
+    color: var(--custom-sp-color) !important;
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Figure_eXF8x {
@@ -289,7 +289,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .mainmenu_ItemLabel_3x-ZK {
-    color: var(--custom-sp-color2);
+    color: var(--custom-sp-color2) !important;
 }
 
 .basiccontextmenu_BasicContextMenuHeader_2nHKK {
@@ -1324,7 +1324,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_But
     }
 
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
-    color: var(--custom-sp-color);
+    color: var(--custom-sp-color) !important;
 }
 
 .quickaccessmenu_Tab_1S76C {
@@ -1942,4 +1942,116 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 
 .bbcodes_Bold_1opdq {
     color: var(--custom-sp-color);
+}
+
+.awayOrSnooze.online .personanameandstatus_playerName_r62qz.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_playerName_r62qz {
+    color: var(--custom-sp-color);
+}
+
+.personastatusicons_PersonaStatusIcon_1YsWj.online .SVGIcon_VR path.GamepadMode, .GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.online .SVGIcon_VR path, .personastatusicons_PersonaStatusIcon_1YsWj.online .SVGIcon_MobilePhone path.GamepadMode, .GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.online .SVGIcon_MobilePhone path, .personastatusicons_PersonaStatusIcon_1YsWj.online .SVGIcon_BigPicture path.GamepadMode, .GamepadMode .personastatusicons_PersonaStatusIcon_1YsWj.online .SVGIcon_BigPicture path {
+    fill: var(--custom-sp-color);
+}
+
+.friendsnooze_SnoozeContainer_3EzTy.online .friendsnooze_SnoozeZ_1DArl.GamepadMode, .GamepadMode .friendsnooze_SnoozeContainer_3EzTy.online .friendsnooze_SnoozeZ_1DArl {
+    color: var(--custom-sp-color);
+}
+
+.standardtemplates_Title_1WlRE {
+    color: var(--custom-sp-color);
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L, .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L {
+    fill: var(--custom-sp-color);
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC, .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Timestamp_2vSvC {
+    color: var(--custom-sp-color);
+}
+
+.standardtemplates_StandardNotificationDescription_1Ldq1 {
+    color: var(--custom-sp-color2);
+}
+
+.standardtemplates_StandardNotificationSubText_2XcN2 {
+    color: var(--custom-sp-color);
+}
+
+.searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconRight_1Ka4T {
+    fill: var(--custom-sp-color);
+}
+
+.searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconLeft_2Ya83 {
+    fill: var(--custom-sp-color);
+}
+
+.apppartnereventspage_EventTypeAndTimeRow_11C0z .apppartnereventspage_TimeandPostedBy_ElEkK .apppartnereventspage_EventType_30JUM {
+    color: var(--custom-sp-color);
+}
+
+.partnereventdisplay_EventDetailTitle_2_4FS {
+    color: var(--custom-sp-color2);
+}
+
+.partnereventdisplay_EventDetailsBody_3v0cw {
+    color: var(--custom-sp-color);
+}
+
+div.eventbbcodeparser_Header1_15FlI, div.eventbbcodeparser_Header2_1SWg2, div.eventbbcodeparser_Header3_AX80F {
+    color: var(--custom-sp-color2);
+}
+
+.discussionwidget_VoteCount_2dVe4, .discussionwidget_DiscussionCount_1GFRK {
+    color: var(--custom-sp-color2);
+}
+
+.partnereventshared_Button_3P0Tm.partnereventshared_Icon_3p1Hj {
+    fill: var(--custom-sp-color);
+}
+
+.discussionwidget_VoteUpStaticIcon_1g-En {
+    fill: var(--custom-sp-color);
+}
+
+.discussionwidget_VoteDownIcon_3QPkc {
+    fill: var(--custom-sp-color);
+}
+
+.discussionwidget_DiscussionCount_1GFRK > svg {
+    fill: var(--custom-sp-color);
+}
+
+.gpfocus .basicpartnereventspage_BasicPartnerEvent_2yuwU {
+    border-color: var(--custom-sp-color);
+}
+
+.gamecapsule_PriceCtn_2E-mS {
+    color: var(--custom-sp-color2);
+}
+
+.BasicUI .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
+    color: var(--custom-sp-color);
+}
+
+.appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq a:-webkit-any-link {
+    color: var(--custom-sp-color);
+}
+
+.mediapage_Screenshot_3Qh8h .mediapage_ImageContainer_120HU .mediapage_SpoilerTag_3P-gF .mediapage_Title_3QFEe {
+    color: var(--custom-sp-color);
+}
+
+.mediapage_Screenshot_3Qh8h .mediapage_ImageContainer_120HU .mediapage_SpoilerTag_3P-gF .mediapage_Description_3kGBg {
+    color: var(--custom-sp-color2);
+}
+
+.mediapage_Details_10UNz .mediapage_DetailsRow_2F3cn .mediapage_VisibilityType_1-5ZA {
+    color: var(--custom-sp-color2);
+}
+
+.mediapage_Screenshot_3Qh8h.gpfocuswithin .mediapage_Details_10UNz .mediapage_DetailsRow_2F3cn.mediapage_Name_3PtHe {
+    color: var(--custom-sp-color);
+}
+
+.mediapage_Screenshot_3Qh8h.gpfocuswithin .mediapage_Details_10UNz .mediapage_DetailsRow_2F3cn .mediapage_CaptureTime_2UWVW > span {
+    color: var(--custom-sp-color2);
 }
