@@ -1,0 +1,14 @@
+:root {
+	--custom-sp-color: rgb(39, 174, 96);
+	--custom-sp-color-shadow: rgba(39, 174, 96, 0.8);
+	--custom-sp-color-border: rgba(39, 174, 96, 0.8);
+	--custom-sp-color-border-grow-0: rgba(39, 174, 96, 0);
+	--custom-sp-color-border-grow-01: rgba(39, 174, 96, 0.4);
+	--custom-sp-color-border-grow-100: rgba(39, 174, 96, 0.8);
+	--custom-sp-color-border-fade-0: rgba(39, 174, 96, 0);
+	--custom-sp-color-border-fade-100: rgba(39, 174, 96, 0.8);
+	--custom-sp-color-border-blink: rgba(39, 174, 96, 0.4);
+	--custom-sp-color-shadow-blink: rgba(39, 174, 96, 0.4);
+	--custom-sp-filter: brightness(0) saturate(100%) invert(52%) sepia(63%) saturate(447%) hue-rotate(93deg) brightness(93%) contrast(103%);
+	--custom-sp-throbber-filter: brightness(0) saturate(100%) invert(52%) sepia(63%) saturate(447%) hue-rotate(93deg) brightness(93%) contrast(103%);
+}
