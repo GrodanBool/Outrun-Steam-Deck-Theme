@@ -590,7 +590,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .gamepadpagedsettings_PagedSettingsDialog_Title_1Px9u {
-    color: var(--custom-sp-color2);
+    color: var(--custom-sp-color);
 }
 
 .gamepaddialog_BasicTextInput_3GCBi::placeholder {
@@ -1240,7 +1240,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, button.gamepaddialog_But
 }
 
 .appdetailsreviewsection_CommentsGroup_2Z3gh .appdetailsreviewsection_CommentsContainer_17u7k .appdetailsreviewsection_UpVotesIcon_2cFKq {
-    color: var(--custom-sp-color);
+    fill: var(--custom-sp-color);
 }
 
 .appdetailsreviewsection_Container_3ii4E {
@@ -2103,3 +2103,165 @@ updaterfield_TextContainer_pW4WL {
     .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r {
         background: var(--custom-sp-color) !important;
     }
+
+.appdetailsgameinfopanel_SocialMedia_2SfB1 svg {
+    fill: var(--custom-sp-color2);
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_SubMenu_1_tPN .SVGIcon_DownArrowContextMenu {
+    fill: var(--custom-sp-color);
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo .SVGIcon_PlusCircle line {
+    stroke: var(--custom-sp-color);
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_Title_3zuIC {
+    color: var(--custom-sp-color2);
+}
+
+.appproperties_BuildInfo_t4XYb {
+    color: var(--custom-sp-color);
+}
+
+.moveappsdialog_DialogBodyText_lwZMn {
+    color: var(--custom-sp-color2);
+}
+
+.appproperties_BetaLabel_3H9mJ {
+    color: var(--custom-sp-color2);
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_SteamInputStatusGrid_3lj3- .appproperties_SteamInputStatus_2H4Ly {
+    color: var(--custom-sp-color2);
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_SteamInputStatusGrid_3lj3- .appproperties_Controller_nsJRd .appproperties_ControllerPip_3QVsc.appproperties_ControllerConnected_11Gq_ {
+    background-color: var(--custom-sp-color2);
+}
+
+.comment_thread_RatingBar_1yWgP .comment_thread_LikeIcon_1OhPt svg, .comment_thread_RatingBar_1yWgP .comment_thread_LikeIcon_1OhPt path, .comment_thread_RatingBar_1yWgP .comment_thread_CommentIcon_1R6Ou svg, .comment_thread_RatingBar_1yWgP .comment_thread_CommentIcon_1R6Ou path, .comment_thread_RatingBar_1yWgP .comment_thread_ReactionIcon_QL3Aa svg, .comment_thread_RatingBar_1yWgP .comment_thread_ReactionIcon_QL3Aa path {
+    fill: var(--custom-sp-color);
+    color: var(--custom-sp-color);
+}
+
+.searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s::placeholder {
+    color: var(--custom-sp-color) !important;
+}
+
+.searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchAndTitleContainer_17M8g.searchbar_ForceExpanded_1bmuJ .searchbar_SearchBox_2a1-s {
+    caret-color: var(--custom-sp-color);
+    color: var(--custom-sp-color);
+}
+
+.searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconLeft_2Ya83.searchbar_WhiteBackground_1l8js {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI .downloads_EmptyTransfers_1zv2D .downloads_Text_1nCT- {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_InterstitialImageColumnButtons_14UtV > span {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfigurator_interstitial_InterstitialArrow_2_E_g {
+    filter: var(--custom-sp-filter);
+}
+
+.controllerconfigurator_interstitial_DescLabelWithSpace_yMEbv {
+    color: var(--custom-sp-color2);
+}
+
+.controllerconfigurator_interstitial_ControlLabel_tGJeF {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfiguratorchooseconfiguration_OuterColumn_1Udh1 h1 {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfiguratorchooseconfiguration_OuterColumn_1Udh1 p {
+    color: var(--custom-sp-color2);
+}
+
+.controllerconfiguratorchooseconfiguration_Author_1dzOH {
+    color: var(--custom-sp-color2) !important;
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigTitleRow_3evQa {
+    color: var(--custom-sp-color);
+}
+
+controllerconfiguratorchooseconfiguration_TextRow_T3fXp controllerconfiguratorchooseconfiguration_Description_3XAvq {
+    color: var(--custom-sp-color2);
+}
+
+.controllerconfiguratorchooseconfiguration_IconContainer_2kPo6 svg {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN.controllerconfiguratorchooseconfiguration_Selected_Gp6XG {
+    border-left: 2px solid var(--custom-sp-color);
+}
+
+.gpfocus .controllerconfiguratorchooseconfiguration_Title_EI1IQ {
+    color: var(--custom-sp-color);
+}
+
+.gpfocus .controllerconfiguratorchooseconfiguration_Description_3XAvq {
+    color: var(--custom-sp-color2);
+}
+
+.controllerconfiguratorchooseconfiguration_TextRow_T3fXp > div {
+    color: var(--custom-sp-color2);
+}
+
+.controllerconfiguratorchooseconfiguration_TextRow_T3fXp > div > svg {
+    color: var(--custom-sp-color);
+}
+
+.controllerconfiguratormapping_PageListItem_Title_f1ZpM {
+    color: var(--custom-sp-color);
+}
+
+.overlayguides_OverlayGuidesHome_1Biyy .overlayguides_GuidesHomeHeader_1K5yV .overlayguides_AppName_3LiqH {
+    color: var(--custom-sp-color);
+}
+
+.overlayguides_ListTitle_1qkU5 {
+    color: var(--custom-sp-color);
+}
+
+.overlayguides_OverlayGuidesHome_1Biyy .overlayguides_GuidesHomeHeader_1K5yV .overlayguides_GuidesHomeHeaderDesc_14LPc {
+    color: var(--custom-sp-color2);
+}
+
+.overlayguides_GuideTitle_35sEZ8 {
+    color: var(--custom-sp-color);
+}
+
+.overlayguides_GuideAuthor_28tAd {
+    color: var(--custom-sp-color);
+}
+
+.overlayguides_GuideDescription_DpdGp {
+    color: var(--custom-sp-color2);
+}
+
+.overlayguides_GuideDetails_1AjME .overlayguides_GuideDetailsTitle_d2OwZ {
+    color: var(--custom-sp-color);
+}
+
+.overlayguides_UGCRating_oTb9Y .overlayguides_UGCTotalRatings_1RTRU {
+    color: var(--custom-sp-color2);
+}
+
+.overlayguides_GuideDetails_1AjME .overlayguides_GuideDetailsDesc_1wBkh {
+    color: var(--custom-sp-color);
+}
+
+.overlayguides_GuideDetails_1AjME .overlayguides_TableOfContents_CwN4g .overlayguides_TOCEntry_2bjWQ {
+    color: var(--custom-sp-color);
+}
