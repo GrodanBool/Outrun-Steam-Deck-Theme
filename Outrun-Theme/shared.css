@@ -2063,3 +2063,31 @@ div.eventbbcodeparser_Header1_15FlI, div.eventbbcodeparser_Header2_1SWg2, div.ev
 .searchbar_SearchAndTitleContainer_17M8g .searchbar_SearchIconRight_1Ka4T {
     color: var(--custom-sp-color);
 }
+
+updaterfield_TextContainer_pW4WL {
+    color: var(--custom-sp-color);
+}
+
+.searchbar_SearchBox_2a1-s.gpfocus::placeholder {
+    color: var(--custom-sp-color);
+}
+
+.gamepaddialog_FieldIcon_1sC68 svg {
+    color: var(--custom-sp-color);
+}
+
+.mainmenuapprunning_NavigationMenuItem_1G0K4 {
+    color: var(--custom-sp-color2);
+}
+
+    .mainmenuapprunning_NavigationMenuItem_1G0K4 .mainmenuapprunning_ActiveDot_13YbV {
+        background: var(--custom-sp-color);
+    }
+
+.controllerconfiguratorsummary_BottomControlsSections_2H5S6 .controllerconfiguratorsummary_ConfigButton_1T2Rs {
+    color: var(--custom-sp-color);
+}
+
+.FlexGrowUniversalSearch .searchbar_SearchAndTitleContainer_17M8g.searchbar_ShowingTitle_P5_Rq {
+    color: var(--custom-sp-color);
+}
