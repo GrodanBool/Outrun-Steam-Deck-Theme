@@ -2091,3 +2091,15 @@ updaterfield_TextContainer_pW4WL {
 .FlexGrowUniversalSearch .searchbar_SearchAndTitleContainer_17M8g.searchbar_ShowingTitle_P5_Rq {
     color: var(--custom-sp-color);
 }
+
+.gamepadcontextmenu_BasicContextMenuHeader_2Jp8B {
+    color: var(--custom-sp-color);
+}
+
+.gamepadcontextmenu_contextMenuItem_1sdvo {
+    color: var(--custom-sp-color2) !important;
+}
+
+    .gamepadcontextmenu_contextMenuItem_1sdvo.gamepadcontextmenu_Focused_X813r {
+        background: var(--custom-sp-color) !important;
+    }
