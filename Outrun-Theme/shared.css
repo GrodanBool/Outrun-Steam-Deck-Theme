@@ -2265,3 +2265,11 @@ controllerconfiguratorchooseconfiguration_TextRow_T3fXp controllerconfiguratorch
 .overlayguides_GuideDetails_1AjME .overlayguides_TableOfContents_CwN4g .overlayguides_TOCEntry_2bjWQ {
     color: var(--custom-sp-color);
 }
+
+.audio_VolumePopin_2iUUM {
+    background: transparent;
+}
+
+.gamepadslider_SliderTrack_Mq25N {
+    background: var(--custom-sp-color-border-grow-01);
+}
