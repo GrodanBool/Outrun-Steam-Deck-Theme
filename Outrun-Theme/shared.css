@@ -2267,9 +2267,11 @@ controllerconfiguratorchooseconfiguration_TextRow_T3fXp controllerconfiguratorch
 }
 
 .audio_VolumePopin_2iUUM {
-    background: transparent;
+    background: transparent !important;
+    margin-top: -7.5px;
+    margin-left: -15px;
 }
 
 .gamepadslider_SliderTrack_Mq25N {
-    background: var(--custom-sp-color-border-grow-01);
+    background: var(--custom-sp-color-border-grow-01) !important;
 }
