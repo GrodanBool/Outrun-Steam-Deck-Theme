@@ -92,6 +92,13 @@ rect.downloadgraph_GraphBar_3raSL {
     animation: appportrait_growOutline_3wk3d1 .4s ease,appportrait_fadeOutline_1FLuV1 .4s ease,appportrait_blinker_2tSbN1 1.2s ease-in-out .4s infinite;
 }
 
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+    border: 2px solid var(--custom-sp-color-border);
+    outline: none;
+    box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow);
+    animation: appportrait_growOutline_3wk3d1 .4s ease,appportrait_fadeOutline_1FLuV1 .4s ease,appportrait_blinker_2tSbN1 1.2s ease-in-out .4s infinite;
+}
+
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA {
     color: var(--custom-sp-color);
 }
@@ -1962,6 +1969,7 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus.Primary, button.gamepaddi
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Icon_19g_L, .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Icon_19g_L {
     fill: var(--custom-sp-color);
+    color: var(--custom-sp-color);
 }
 
 .standardtemplates_StandardTemplate_3e_DB .standardtemplates_Timestamp_2vSvC, .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Timestamp_2vSvC {
@@ -2274,4 +2282,36 @@ controllerconfiguratorchooseconfiguration_TextRow_T3fXp controllerconfiguratorch
 
 .gamepadslider_SliderTrack_Mq25N {
     background: var(--custom-sp-color-border-grow-01) !important;
+}
+
+.standardtemplates_PinnedTemplate_2eBei .standardtemplates_PinnedBody_1Ljgv {
+    color: var(--custom-sp-color2);
+}
+
+.notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Name_1juF1 {
+    color: var(--custom-sp-color);
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_Title_1WlRE, .standardtemplates_PinnedTemplate_2eBei .standardtemplates_Title_1WlRE {
+    color: var(--custom-sp-color2);
+}
+
+.BasicUI .notificationcontent_AchievementTextSection_mJ3Nu .notificationcontent_Desc_2zm3G {
+    color: var(--custom-sp-color2);
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationDescription_1Ldq1, .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationDescription_1Ldq1 {
+    color: var(--custom-sp-color);
+}
+
+.notificationcontent_Timestamp_3q7nN, .notificationcontent_TimestampDesktop_1N5mc {
+    color: var(--custom-sp-color);
+}
+
+.standardtemplates_StandardTemplate_3e_DB .standardtemplates_StandardNotificationSubText_2XcN2, .standardtemplates_PinnedTemplate_2eBei .standardtemplates_StandardNotificationSubText_2XcN2 {
+    color: var(--custom-sp-color2);
+}
+
+.DialogLabel, .DialogLabelStrong {
+    color: var(--custom-sp-color2);
 }
