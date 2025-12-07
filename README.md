@@ -1,3 +1,8 @@
+# Looking for maintainer(s)
+Never transfered a project before, reach out on discord or open an issue i guess. ¯\_(ツ)_/¯
+
+I will also happily accept any pull requests, doesn't matter if you're still learning. We'll figure it out.
+
 # Outrun Theme
  A theme for the Steam Deck folowing the Outrun/SynthWave/RetroWave/Cyberpunk color scheme, currently it applies system wide, although i might have missed a few things. 
  
