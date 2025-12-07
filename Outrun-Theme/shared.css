@@ -2315,3 +2315,11 @@ controllerconfiguratorchooseconfiguration_TextRow_T3fXp controllerconfiguratorch
 .DialogLabel, .DialogLabelStrong {
     color: var(--custom-sp-color2);
 }
+
+.BasicUI ._3vzvOyI0h9mIihOEtO6wZ2 ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] ._2ADpTpv53dcY1uFpMWO1KT {
+    color: var(--custom-sp-color2) !important;
+}
+
+.BasicUI ._3vzvOyI0h9mIihOEtO6wZ2 ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] svg {
+    color: var(--custom-sp-color) !important;
+}
