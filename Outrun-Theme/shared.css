@@ -2324,6 +2324,10 @@ controllerconfiguratorchooseconfiguration_TextRow_T3fXp controllerconfiguratorch
     color: var(--custom-sp-color) !important;
 }
 
+.BasicUI ._3vzvOyI0h9mIihOEtO6wZ2 ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] div:first-child:nth-last-child(3) {
+    background: var(--custom-sp-color2) !important;
+}
+
 ._vrwj4IQ-vqMravrbJb64 .Ayu--dDVVaKmP2gNYPAQ0 ._1iulCOMUxV6sBbqoKo_yXw {
     color: var(--custom-sp-color2) !important;
 }
@@ -2364,10 +2368,14 @@ controllerconfiguratorchooseconfiguration_TextRow_T3fXp controllerconfiguratorch
     color: var(--custom-sp-color2)
 }
 
-.BasicUI ._3vzvOyI0h9mIihOEtO6wZ2 ._3apLK4XGwOjawDa-8X1CUa ._23IDiI-F_FxXotrgpY71r8 ._3apLK4XGwOjawDa-8X1CUa ._1BbM8Qq8OL5N8gL4PYH397 ._2w9TpQwxU7vcwaAbf3KGv_ ._1uLVHdiiCg78BRnhqLxUID {
-    color: var(--custom-sp-color2) !important;
+.BasicUI ._2TYVGoD27ZMfjRirKQNLfk, .BasicUI ._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi ._3ooxUb30k7736aTVnO179S {
+    color: var(--custom-sp-color2);
 }
 
-.BasicUI ._3vzvOyI0h9mIihOEtO6wZ2 ._3apLK4XGwOjawDa-8X1CUadiv, div[role=menuitem] ._23IDiI-F_FxXotrgpY71r8._3apLK4XGwOjawDa-8X1CUa {
-    background: transparent !important
+.BasicUI ._3scbHORkYB7utTUGfkMCC_ .z8GYwNt_nbBZrf7OVjs-s {
+    color: var(--custom-sp-color);
+}
+
+.BasicUI ._3scbHORkYB7utTUGfkMCC_ .z8GYwNt_nbBZrf7OVjs-s ._2g3Gley034M1ZGhcq005s {
+    color: var(--custom-sp-color2);
 }
