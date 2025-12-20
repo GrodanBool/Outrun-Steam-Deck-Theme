@@ -73,7 +73,7 @@ rect.downloadgraph_GraphBar_3raSL {
 }
 
 .header_BatteryIcon_1_6kL svg path:first-child:nth-last-child(3){
-    fill: var(--custom-sp-color2) !important;
+    fill: var(--custom-sp-color2);
 }
 
 .quickaccesscontrols_BatteryIcon_39aNh rect {
