@@ -49,7 +49,6 @@
 @keyframes appportrait_blinker_2tSbN1 {
     50% {
         border: 2px solid var(--custom-sp-color-border-blink);
-        box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow-blink);
     }
 }
 
@@ -83,20 +82,6 @@ rect.downloadgraph_GraphBar_3raSL {
 
 .basicgamecarousel_Play_12eKc .basicgamecarousel_ActionIcon_25Qbo {
     color: var(--custom-sp-color);
-}
-
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus.gpfocuswithin {
-    border: 2px solid var(--custom-sp-color-border);
-    outline: none;
-    box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow);
-    animation: appportrait_growOutline_3wk3d1 .4s ease,appportrait_fadeOutline_1FLuV1 .4s ease,appportrait_blinker_2tSbN1 1.2s ease-in-out .4s infinite;
-}
-
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
-    border: 2px solid var(--custom-sp-color-border);
-    outline: none;
-    box-shadow: 0px 0px 24px 0px var(--custom-sp-color-shadow);
-    animation: appportrait_growOutline_3wk3d1 .4s ease,appportrait_fadeOutline_1FLuV1 .4s ease,appportrait_blinker_2tSbN1 1.2s ease-in-out .4s infinite;
 }
 
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA {
@@ -2386,4 +2371,18 @@ controllerconfiguratorchooseconfiguration_TextRow_T3fXp controllerconfiguratorch
 
 ._22WcrscaQSqK56PQKgf5YG .sv3ZHPWbrD7yjwx5Mi3u5 {
     color: var(--custom-sp-color2);
+}
+
+.BasicUI ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover._3VOR2AeYATx3qSE0I-Pm-5, .BasicUI ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R._3VOR2AeYATx3qSE0I-Pm-5 {
+    box-shadow: 0px 12px 10px 0px var(--custom-sp-color);
+}
+
+.BasicUI .WYgDg9NyCcMIVuMyZ_NBC.Focusable:focus {
+    border: 2px solid var(--custom-sp-color-border);
+    outline: none;
+    animation: appportrait_growOutline_3wk3d1 .4s ease,appportrait_fadeOutline_1FLuV1 .4s ease,appportrait_blinker_2tSbN1 1.2s ease-in-out .4s infinite;
+}
+
+._3LYP1SIxyoky-yW9Ug_1fq ._282X0J4BtrSF1IXctmOe-X ._35iRep_MLGWeAmkLbeny7R ._1KKWf5v5FhqL_NrtrGZPzG {
+    color: var(--custom-sp-color);
 }
